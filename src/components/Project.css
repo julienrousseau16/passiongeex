@@ -1,0 +1,9 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Project * {
+    color: #fff;
+}

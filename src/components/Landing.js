@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import './Landing.css'
 
 const Landing = () => {
+
   return (
     <div className='Landing'>
       <Link to='/main'>
