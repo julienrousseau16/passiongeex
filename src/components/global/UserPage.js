@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom'
 
 import './UserPage.css'
 
 const UserPage = () => {
+
+  const [appear, setAppear] = useState(false)
+
+  useEffect(() => {
+    setAppear(true)
+  }, [])
+
   return (
-    <div className='UserPage'>
-      <h1>UserPage</h1>
+    <div className='UserPage' style={appear ? { opacity: 1 } : { opacity: 0 }}>
+      <img className='topLogo' src={require('../../pictures/logo.png')} alt='logo' />
+      <h1>Qui-est ce ?</h1>
       <div className='UsersContainer'>
         <Link to='/main' className='User'>
           <img src={require('../../pictures/user.png')} alt='user' />
