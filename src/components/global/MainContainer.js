@@ -1,7 +1,8 @@
 import React from 'react'
 
+import ProjectsContainer from '../projects/ProjectsContainer'
+
 import './MainContainer.css'
-import ProjectsContainer from './ProjectsContainer'
 
 const MainContainer = () => {
   return (

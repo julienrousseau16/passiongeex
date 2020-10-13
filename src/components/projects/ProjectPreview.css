@@ -1,0 +1,21 @@
+.ProjectPreview {
+  margin-bottom: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PreviewInfo {
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.ProjectPreview img {
+  width: 100%;
+}
+
+
+

@@ -1,3 +1,7 @@
+.MainContainer {
+  width: 100%;
+}
+
 .MainContainer h1 {
   text-align: center;
   color: #fff;

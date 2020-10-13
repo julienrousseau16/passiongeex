@@ -1,0 +1,11 @@
+.ProjectsContainer h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.ProjectsCategory {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+}
