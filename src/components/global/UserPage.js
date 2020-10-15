@@ -17,14 +17,14 @@ const UserPage = () => {
       <img className='topLogo' src={require('../../pictures/logo.png')} alt='logo' />
       <h1>Qui-est ce ?</h1>
       <div className='UsersContainer'>
-        <Link to='/main' className='User'>
-          <img src={require('../../pictures/user.png')} alt='user' />
+        <div className='User'>
+          <Link to='/profile'><img src={require('../../pictures/user.png')} alt='user' /></Link>
           <h3>Visiteur</h3>
-        </Link>
-        <Link to='/main' className='User'>
-          <img src={require('../../pictures/user2.png')} alt='user' />
+        </div>
+        <div className='User'>
+          <Link to='/profile'><img src={require('../../pictures/user2.png')} alt='user' /></Link>
           <h3>Recruteur</h3>
-        </Link>
+        </div>
       </div>
       <p>ça va pas changer grand chose</p>
     </div>

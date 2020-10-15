@@ -1,0 +1,39 @@
+.Header  {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid rgb(61, 60, 60);
+}
+
+.HeaderLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+  
+}
+.HeaderLogoContainer img {
+  height: 70%;
+}
+
+.Navbar {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.NavItem {
+  color: #fff;
+}

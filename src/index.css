@@ -9,3 +9,7 @@ body {
   /* registered colors */
   --bg-color: #000;
 }
+
+a {
+  text-decoration: none;
+}

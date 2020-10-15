@@ -8,8 +8,10 @@ import UserPage from './components/global/UserPage'
 import './App.css'
 
 const App = () => {
+
   return (
     <div className='App'>
+
       <Switch>
         <Route exact path='/'>
           <Landing />
@@ -17,7 +19,7 @@ const App = () => {
         <Route path='/user'>
           <UserPage />
         </Route>
-        <Route path='/main'>
+        <Route path='/profile'>
           <MainContainer />
         </Route>
       </Switch>
