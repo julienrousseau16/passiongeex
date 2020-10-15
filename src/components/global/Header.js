@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { LangContext } from '../../tools/LangContext'
 
 import './Header.css'
 
 const Header = () => {
+
+  const { lang, setLang } = useContext(LangContext);
+
+  const langToggle = () => {
+    lang === 'FR' ? setLang('EN') : setLang('FR')
+  }
 
   return (
     <div className='Header'>
@@ -12,11 +19,20 @@ const Header = () => {
       </div>
       <nav className='Navbar'>
         <ul className='NavList'>
-          <Link to='/profile' className='NavItem'>Profil</Link>
-          <Link to='/profile/projects' className='NavItem'>Projets</Link>
-          <Link to='/profile/references' className='NavItem'>Références</Link>
+          <Link to='/profile' className='NavItem'>
+            {lang === 'FR' ? 'Profil' : 'Profile'}
+          </Link>
+          <Link to='/profile/projects' className='NavItem'>
+            {lang === 'FR' ? 'Projets' : 'Projects'}
+          </Link>
+          <Link to='/profile/references' className='NavItem'>
+            {lang === 'FR' ? 'Références' : 'References'}
+          </Link>
         </ul>
       </nav>
+      <div className='HeaderLang'>
+        <p onClick={langToggle}>{lang}</p>
+      </div>
     </div>
   )
 }

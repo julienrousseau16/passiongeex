@@ -1,5 +1,6 @@
 .MainContainer {
   width: 100%;
+  transition: 1s ease-in-out;
 }
 
 .MainContainer .Content {

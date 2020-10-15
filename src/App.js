@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Route, Switch } from 'react-router-dom'
+import { LangContext } from './tools/LangContext'
 
 import Landing from './components/global/Landing'
 import MainContainer from './components/global/MainContainer'
@@ -8,6 +9,8 @@ import UserPage from './components/global/UserPage'
 import './App.css'
 
 const App = () => {
+
+  const [lang, setLang] = useState('FR')
 
   return (
     <div className='App'>
@@ -19,9 +22,11 @@ const App = () => {
         <Route path='/user'>
           <UserPage />
         </Route>
-        <Route path='/profile'>
-          <MainContainer />
-        </Route>
+        <LangContext.Provider value={{ lang, setLang }}>
+          <Route path='/profile'>
+            <MainContainer />
+          </Route>
+        </LangContext.Provider>
       </Switch>
 
     </div>

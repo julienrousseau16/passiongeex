@@ -1,4 +1,4 @@
-.Header  {
+.Header {
   position: fixed;
   top: 0;
   display: flex;
@@ -15,25 +15,41 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 20%;
-  
+  width: 15%;
 }
+
 .HeaderLogoContainer img {
   height: 70%;
 }
 
 .Navbar {
-  width: 80%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .NavList {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
+
 .NavItem {
   color: #fff;
+}
+
+.HeaderLang {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 15%;
+  height: 40%;
+  border-left: 1px solid grey;
+}
+
+.HeaderLang p {
+  color: #fff;
+  cursor: pointer;
 }
