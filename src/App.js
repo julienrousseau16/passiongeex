@@ -23,7 +23,7 @@ const App = () => {
           <UserPage />
         </Route>
         <LangContext.Provider value={{ lang, setLang }}>
-          <Route path='/profile'>
+          <Route path='/home'>
             <MainContainer />
           </Route>
         </LangContext.Provider>

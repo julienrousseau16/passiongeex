@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
+import {NavLink as Link} from 'react-router-dom'
+import { ProjectContext } from '../../tools/ProjectContext'
 
-import PreviewModal from './PrevewModal'
 
 import './ProjectPreview.css'
 
-const ProjectPreview = ({ project: { name, mobilepic } }) => {
+const ProjectPreview = ({ project }) => {
 
-  const [showModal, setShowModal] = useState(false)
+  const { setSelectedProject } = useContext(ProjectContext)
 
   return (
     <div className='ProjectPreview'>
-      <img src={require('../../pictures/' + mobilepic)} alt='project preview' />
-      <div className='PreviewInfo' onClick={() => setShowModal(true)}>infos</div>
-      {showModal && <PreviewModal name={name} close={() => setShowModal(false)} />}
+      <img src={require('../../pictures/' + project.mobilepic)} alt='project preview' />
+      <Link onClick={() => setSelectedProject(project)} to={`/home/project/${project.slug}`}>TEST</Link>
     </div>
   )
 }

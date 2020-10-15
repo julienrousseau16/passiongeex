@@ -18,11 +18,11 @@ const UserPage = () => {
       <h1>Qui-est ce ?</h1>
       <div className='UsersContainer'>
         <div className='User'>
-          <Link to='/profile'><img src={require('../../pictures/user.png')} alt='user' /></Link>
+          <Link to='/home'><img src={require('../../pictures/user.png')} alt='user' /></Link>
           <h3>Visiteur</h3>
         </div>
         <div className='User'>
-          <Link to='/profile'><img src={require('../../pictures/user2.png')} alt='user' /></Link>
+          <Link to='/home'><img src={require('../../pictures/user2.png')} alt='user' /></Link>
           <h3>Recruteur</h3>
         </div>
       </div>

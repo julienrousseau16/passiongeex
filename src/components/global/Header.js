@@ -19,13 +19,13 @@ const Header = () => {
       </div>
       <nav className='Navbar'>
         <ul className='NavList'>
-          <Link to='/profile' className='NavItem'>
+          <Link to='/home/profile' className='NavItem'>
             {lang === 'FR' ? 'Profil' : 'Profile'}
           </Link>
-          <Link to='/profile/projects' className='NavItem'>
+          <Link to='/home/projects' className='NavItem'>
             {lang === 'FR' ? 'Projets' : 'Projects'}
           </Link>
-          <Link to='/profile/references' className='NavItem'>
+          <Link to='/home/references' className='NavItem'>
             {lang === 'FR' ? 'Références' : 'References'}
           </Link>
         </ul>

@@ -2,6 +2,7 @@ export const projects = [
   {
     id: 1,
     name: 'Drake R Porter',
+    slug: 'drake-r-porter',
     type: 'school',
     duration: '1 semaine',
     team: 6,
@@ -13,6 +14,7 @@ export const projects = [
   {
     id: 2,
     name: 'Pokefight',
+    slug: 'pokefight',
     type: 'school',
     duration: '5 semaines',
     team: 5,
@@ -24,6 +26,7 @@ export const projects = [
   {
     id: 3,
     name: 'Virtual Waiting Room',
+    slug: 'virtual-waiting-room',
     type: 'hackathon',
     duration: '48 heures',
     team: 5,
