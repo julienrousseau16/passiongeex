@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import {NavLink as Link} from 'react-router-dom'
+import { NavLink as Link } from 'react-router-dom'
 import { ProjectContext } from '../../tools/ProjectContext'
 
 
@@ -11,8 +11,7 @@ const ProjectPreview = ({ project }) => {
 
   return (
     <div className='ProjectPreview'>
-      <img src={require('../../pictures/' + project.mobilepic)} alt='project preview' />
-      <Link onClick={() => setSelectedProject(project)} to={`/home/project/${project.slug}`}>TEST</Link>
+      <Link onClick={() => setSelectedProject(project)} to={`/home/project/${project.slug}`}><img src={require('../../pictures/' + project.mobilepic)} alt='project preview' /></Link>
     </div>
   )
 }

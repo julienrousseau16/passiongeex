@@ -5,6 +5,9 @@ export const projects = [
     slug: 'drake-r-porter',
     type: 'school',
     duration: '1 semaine',
+    engDuration: '1 week',
+    date: 'Mars 2020',
+    engDate: 'March 2020',
     team: 6,
     mobilepic: 'drake/drake_mobilepreview.png',
     pic: 'drake/drake_preview.png',
@@ -17,6 +20,9 @@ export const projects = [
     slug: 'pokefight',
     type: 'school',
     duration: '5 semaines',
+    engDuration: '5 weeks',
+    date: 'Avril à Mai 2020',
+    engDate: 'April to May 2020',
     team: 5,
     mobilepic: 'pokefight/pokefight_mobilepreview.png',
     pic: 'pokefight/pokefight_preview.png',
@@ -29,6 +35,9 @@ export const projects = [
     slug: 'virtual-waiting-room',
     type: 'hackathon',
     duration: '48 heures',
+    engDuration: '48 hours',
+    date: 'Juin 2020',
+    engDate: 'June 2020',
     team: 5,
     mobilepic: 'vwr/vwr_mobilepreview.png',
     pic: 'vwr/vwr_preview.png',
@@ -36,3 +45,5 @@ export const projects = [
     github: 'https://github.com/julienrousseau16/hackarburer---Virtual-Waiting-Room'
   }
 ]
+
+/**/

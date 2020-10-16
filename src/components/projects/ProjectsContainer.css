@@ -1,6 +1,13 @@
+.ProjectsContainer {
+  padding-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+
 .ProjectsContainer h2 {
+  margin-bottom: 5px;
   color: #fff;
-  text-align: center;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .ProjectsCategory {
@@ -8,4 +15,5 @@
   align-items: flex-end;
   justify-content: flex-start;
   width: 100%;
+  margin-bottom: 10px;
 }
