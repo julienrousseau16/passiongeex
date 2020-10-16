@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt, faHourglassHalf, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarAlt, faHourglassHalf, faUsers, faArrowAltCircleRight, faFilm } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import { LangContext } from '../../tools/LangContext'
 /* DEV REFERENCE */
@@ -16,14 +17,12 @@ const FullProject = () => {
   const { lang } = useContext(LangContext)
 
   /* DEV REFERENCE */
-  const { id, name, slug, type, duration, engDuration, date, engDate, description, engDescription, team, mobilepic, pic, link, github } = project
+  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, link, github, video } = project
   /* END OF DEV REFERENCE */
 
   const textToggle = () => {
     setComplete(!complete)
   }
-
-  const textButton = () => 'Cliquer'
 
   useEffect(() => {
     setAppear(true)
@@ -69,7 +68,26 @@ const FullProject = () => {
       </section>
 
       <section className='More'>
-
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
+            <a href={link} target='_blank' rel="noopener noreferrer">
+              {lang === 'FR' ? 'Essayer cette application' : 'Test this App'}
+            </a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGithub} className='icon' />
+            <a href={github} target='_blank' rel="noopener noreferrer">
+              {lang === 'FR' ? 'Lien vers Github' : 'See the Github repo'}
+            </a>
+          </li>
+          {video !== '' && <li>
+            <FontAwesomeIcon icon={faFilm} />
+            <a href={video} target='_blank' rel="noopener noreferrer">
+              {lang === 'FR' ? 'Voir la vidéo' : 'Watch the video'}
+            </a>
+          </li>}
+        </ul>
       </section>
     </div>
   )

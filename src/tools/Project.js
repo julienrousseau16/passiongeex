@@ -11,6 +11,7 @@ export const project = {
     engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
     mobilepic: 'vwr/vwr_mobilepreview.png',
     pic: 'vwr/vwr_preview.png',
-    link: 'www.google.fr',
-    github: 'https://github.com/julienrousseau16/hackarburer---Virtual-Waiting-Room'
+    link: 'http://www.google.fr',
+    github: 'https://github.com/julienrousseau16/hackarburer---Virtual-Waiting-Room',
+    video: 'https://www.youtube.com/watch?v=DRAi5Vslzz8'
   }
