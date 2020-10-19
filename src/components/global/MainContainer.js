@@ -6,7 +6,7 @@ import Header from './Header'
 import FullProject from '../projects/FullProject'
 import ProfilePage from '../profile/ProfilePage'
 import ProjectsContainer from '../projects/ProjectsContainer'
-import References from '../references/References'
+import ReferencesContainer from '../references/ReferencesContainer'
 
 import './MainContainer.css'
 
@@ -35,7 +35,7 @@ const MainContainer = () => {
               <FullProject project={selectedProject} />
             </Route>
             <Route path='/home/references'>
-              <References />
+              <ReferencesContainer />
             </Route>
           </Switch>
         </ProjectContext.Provider>

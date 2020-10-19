@@ -1,0 +1,29 @@
+.ReferencesContainer {
+  padding-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+.ReferencesContainer h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.ReferencesRedirection {
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+.ReferencesRedirection p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.ReferencesRedirection a {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.ReferencesRedirection img {
+  width: 50%;
+}

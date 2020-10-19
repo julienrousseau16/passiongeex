@@ -1,0 +1,33 @@
+.Reference {
+  margin-bottom: 35px;
+}
+
+.ReferenceText {
+  display: flex;
+  flex-direction: column;
+}
+.ReferenceText p, .ReferenceText .quote {
+  color: grey;
+  font-style: italic;
+  text-align: justify;
+}
+.ReferenceText #end {
+  align-self: flex-end;
+}
+
+.ReferenceFrom, .ReferenceCompany {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5px;
+}
+.ReferenceFrom *, .ReferenceCompany * {
+  color: #fff;
+}
+
+.ReferenceFrom h3 {
+  margin: 0 10px;
+}
+.ReferenceCompany p {
+  margin-left: 10px;
+}
