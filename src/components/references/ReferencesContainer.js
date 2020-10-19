@@ -22,10 +22,9 @@ const ReferencesContainer = () => {
         {lang === 'FR' ? 'Références' : 'References'}
       </h1>
       <div>
-        {refs.map(reference => <Reference key={reference.id} reference={reference} />)}
+        {refs.map(reference => <Reference key={reference.id} lang={lang} reference={reference} />)}
       </div>
       <div className='ReferencesRedirection'>
-
         <p>
           {lang === 'FR' ? 'Retrouvez ces références directement sur' : 'These references are available on'}
         </p>

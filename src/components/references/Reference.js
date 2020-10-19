@@ -1,14 +1,10 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft, faQuoteRight, faUser, faBuilding } from '@fortawesome/free-solid-svg-icons'
 
-import { LangContext } from '../../tools/LangContext'
-
 import './Reference.css'
 
-const Reference = ({ reference: { text, engText, from, company, position, engPosition } }) => {
-
-  const { lang } = useContext(LangContext)
+const Reference = ({ lang, reference: { text, engText, from, company, position, engPosition } }) => {
 
   return (
     <div className='Reference'>

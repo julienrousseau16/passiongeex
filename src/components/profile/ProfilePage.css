@@ -1,3 +1,32 @@
 .ProfilePage {
-    transition: 0.3s ease-in-out;
+  padding: 20px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.ProfileHeader h1 {
+  text-align: center;;
+  color: #fff;
+}
+.ProfileHeader img {
+  width: 100%;
+  margin: 20px 0;
+  filter: grayscale(.5);
+}
+
+.ProfileRedirection {
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+.ProfileRedirection p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.ProfileRedirection a {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.ProfileRedirection img {
+  width: 50%;
 }

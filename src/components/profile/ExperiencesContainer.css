@@ -1,0 +1,9 @@
+.ExperiencesContainer {
+  padding: 20px;
+  border-top: 1px solid grey;
+}
+
+.ExperiencesContainer h1 {
+  text-align: center;
+  color: #fff
+}
