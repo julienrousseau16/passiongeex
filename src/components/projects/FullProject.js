@@ -72,12 +72,18 @@ const FullProject = () => {
       </section>
 
       <section className='Gallery'>
+        <h2>
+          {lang === 'FR' ? 'Galerie' : 'Gallery'}
+        </h2>
         <Carousel>
           {gallery.map((image, index) => <CarouselImg key={index} image={image} />)}
         </Carousel>
       </section>
 
       <section className='More'>
+        <h2>
+          {lang === 'FR' ? 'Pour aller plus loin' : 'To go further'}
+        </h2>
         <ul>
           <li>
             <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
