@@ -1,0 +1,8 @@
+.CarouselImg img {
+  width: 100%;
+}
+
+.CarouselImg p {
+  color: grey;
+  text-align: center;
+}

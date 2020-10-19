@@ -1,9 +1,13 @@
 import React, { useEffect, useState, useContext } from 'react'
+import Carousel from 'react-elastic-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt, faHourglassHalf, faUsers, faArrowAltCircleRight, faFilm } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
+import CarouselImg from './CarouselImg'
+
 import { LangContext } from '../../tools/LangContext'
+
 /* DEV REFERENCE */
 import { project } from '../../tools/Project'
 /* END OF DEV REFERENCE */
@@ -17,7 +21,7 @@ const FullProject = () => {
   const { lang } = useContext(LangContext)
 
   /* DEV REFERENCE */
-  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, link, github, video } = project
+  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, link, github, video } = project
   /* END OF DEV REFERENCE */
 
   const textToggle = () => {
@@ -67,12 +71,18 @@ const FullProject = () => {
         </button>
       </section>
 
+      <section className='Gallery'>
+        <Carousel>
+          {gallery.map((image, index) => <CarouselImg key={index} image={image} />)}
+        </Carousel>
+      </section>
+
       <section className='More'>
         <ul>
           <li>
             <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
             <a href={link} target='_blank' rel="noopener noreferrer">
-              {lang === 'FR' ? 'Essayer cette application' : 'Test this App'}
+              {lang === 'FR' ? 'Essayer cette application' : 'Try this App'}
             </a>
           </li>
           <li>

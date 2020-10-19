@@ -2,16 +2,17 @@
   transition: 0.3s ease-in-out;
 }
 
-
 .ProjectHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .ProjectHeader img {
   width: 110%;
   margin-bottom: 20px;
 }
+
 .ProjectHeader h2 {
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -24,30 +25,34 @@
   align-items: center;
   margin-bottom: 20px;
 }
+
 .Information div {
   display: flex;
   align-items: center;
   color: #fff;
 }
+
 .Information .icon {
   margin-right: 5px;
 }
 
-
-.Description {
+.Description, .Gallery {
   width: 100%;
   padding-bottom: 20px;
   border-bottom: 1px solid grey;
 }
+
 .Description .text {
   overflow: hidden;
 }
+
 .Description p {
   margin-bottom: 10px;
   text-align: justify;
   font-style: italic;
   color: grey;
 }
+
 .Description button {
   padding: 4px 8px;
   background-color: grey;
@@ -57,16 +62,50 @@
   border-radius: 5px;
 }
 
+.Gallery {
+  padding-top: 20px;
+}
+
+.rec-carousel-wrapper {
+  height: fit-content;
+}
+
+.rec-arrow-left, .rec-arrow-right {
+  font-size: 10px !important;
+  font-weight: bold;
+  width: 30px !important;
+  min-width: 30px !important;
+  height: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey !important;
+  border: 2px solid transparent !important;
+  color: #fff !important;
+}
+
+.rec-pagination {
+  border: 2px solid red;
+}
+.rec-dot {
+  background-color: #fff !important;
+}
+.rec-dot_active {
+  background-color: rgba(128, 128, 128, .5) !important;
+  box-shadow: 0 0 1px 3px rgba(128, 128, 128, 0.5) !important;
+}
 
 .More {
   margin-top: 20px;
 }
+
 .More ul li {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
   color: #fff;
 }
+
 .More ul li a {
   margin-left: 5px;
   color: grey;
