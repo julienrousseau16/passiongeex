@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 
-import {LangContext} from '../../tools/LangContext'
+import { LangContext } from '../../tools/LangContext'
 
 import ExperiencesContainer from './ExperiencesContainer'
 
@@ -8,7 +8,7 @@ import './ProfilePage.css'
 
 const ProfilePage = () => {
 
-  const {lang} = useContext(LangContext)
+  const { lang } = useContext(LangContext)
   const [appear, setAppear] = useState(false)
 
   useEffect(() => {
@@ -21,10 +21,18 @@ const ProfilePage = () => {
         <h1>
           {lang === 'FR' ? 'À propos de moi' : 'About me'}
         </h1>
-        <img src={require('../../pictures/profile.png')} alt='profile-pic'/>
+        <img src={require('../../pictures/profile.png')} alt='profile-pic' />
       </div>
 
-      <ExperiencesContainer lang={lang}/>
+      <ExperiencesContainer lang={lang} />
+
+      {/* <div className='ResumeContainer'>
+        {
+          lang === 'FR' ?
+            <a href={require('../../docs/CV.pdf')} download>Télécharger mon CV</a>
+            : <a href={require('../../docs/resume.pdf')} download>Download my Resume</a>
+        }
+      </div> */}
 
       <div className='ProfileRedirection'>
         <p>
