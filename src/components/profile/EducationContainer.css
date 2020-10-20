@@ -1,13 +1,11 @@
-.ExperiencesContainer {
+.EducationContainer {
   padding: 20px 0;
   border-top: 1px solid grey;
 }
-
-.ExperiencesContainer h1 {
+.EducationContainer h1 {
   text-align: center;
-  color: #fff
+  color: #fff;
 }
-
-.ExpWrapper {
+.EducWrapper {
   margin-top: 20px;
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 
 import { LangContext } from '../../tools/LangContext'
 
+import EducationContainer from './EducationContainer'
 import ExperiencesContainer from './ExperiencesContainer'
 
 import './ProfilePage.css'
@@ -25,6 +26,8 @@ const ProfilePage = () => {
       </div>
 
       <ExperiencesContainer lang={lang} />
+
+      <EducationContainer lang={lang} />
 
       {/* <div className='ResumeContainer'>
         {
