@@ -1,0 +1,11 @@
+.Mission {
+  margin-bottom: 10px;
+}
+.Mission h4 {
+
+}
+.Mission li {
+  text-align: justify;
+  list-style: square;
+  color: grey;
+}

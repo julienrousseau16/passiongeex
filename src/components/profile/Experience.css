@@ -1,3 +1,17 @@
-.Experience p, .Experience h3 {
-    color: #fff;
+.ExperienceInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.ExperienceInfo .icon {
+  margin-right: 10px;
+}
+.Experience h3 {
+  text-transform: uppercase;
+}
+
+.Missions {
+  margin-top: 15px;
+  color: #fff;
 }

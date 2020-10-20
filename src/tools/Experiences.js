@@ -1,21 +1,63 @@
 export const experiences = [
+  // {
+  //   id: 1,
+  //   date: 'Août à Novembre 2020',
+  //   engDate: 'August to November 2020',
+  //   position: 'Stagiaire en développement Web',
+  //   engPosition: 'Web developpement Internship',
+  //   company: 'Les Demoiselles de Plume',
+  //   missions: [
+
+  //   ],
+  //   engMissions: [
+
+  //   ]
+  // },
   {
-    id: 1,
-    date: 'Août à Novembre 2020',
-    engDate: 'August to November 2020',
-    position: 'Stagiaire en développement Web',
-    engPosition: 'Web developpement Internship',
-    company: 'Les Demoiselles de Plume',
-    reference: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat nam at lectus urna duis convallis convallis tellus.',
-    engReference: 'Vel elit scelerisque mauris pellentesque pulvinar. Placerat orci nulla pellentesque dignissim. Etiam dignissim diam quis enim. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu',
+    id: 2,
+    date: 'Décembre 2018 à Février 2020',
+    engDate: 'December \'18 to February \'20',
+    position: 'Assistant d\'équipe',
+    engPosition: 'Team Assistant',
+    company: 'e-VISIONS',
     missions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat nam at lectus urna duis convallis convallis tellus.',
-      'Vel elit scelerisque mauris pellentesque pulvinar. Placerat orci nulla pellentesque dignissim. Etiam dignissim diam quis enim. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. At elementum eu facilisis sed. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Vel eros donec ac odio tempor orci. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Sit amet venenatis urna cursus eget nunc. Platea dictumst vestibulum rhoncus est pellentesque elit. Vulputate odio ut enim blandit volutpat maecenas volutpat.',
-      'Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Nunc non blandit massa enim nec. Sed euismod nisi porta lorem mollis. Semper auctor neque vitae tempus quam pellentesque. Elit sed vulputate mi sit.',
-      'Donec enim diam vulputate ut pharetra sit amet. A lacus vestibulum sed arcu. Tincidunt vitae semper quis lectus nulla at volutpat diam. Feugiat pretium nibh ipsum consequat nisl vel pretium. Porta nibh venenatis cras sed. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Ullamcorper morbi tincidunt ornare massa. Enim nunc faucibus a pellentesque sit amet porttitor. Urna molestie at elementum eu facilisis sed odio morbi quis. Scelerisque in dictum non consectetur a erat nam. At consectetur lorem donec massa sapien.',
-      'Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Amet mauris commodo quis imperdiet.'],
-    engMissions: ['Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Nunc non blandit massa enim nec. Sed euismod nisi porta lorem mollis. Semper auctor neque vitae tempus quam pellentesque. Elit sed vulputate mi sit.',
-      'Donec enim diam vulputate ut pharetra sit amet. A lacus vestibulum sed arcu. Tincidunt vitae semper quis lectus nulla at volutpat diam. Feugiat pretium nibh ipsum consequat nisl vel pretium. Porta nibh venenatis cras sed. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Ullamcorper morbi tincidunt ornare massa. Enim nunc faucibus a pellentesque sit amet porttitor. Urna molestie at elementum eu facilisis sed odio morbi quis. Scelerisque in dictum non consectetur a erat nam. At consectetur lorem donec massa sapien.',
-      'Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Amet mauris commodo quis imperdiet.']
+      {
+        title: 'Communication et Web :',
+        tasks: [
+          'Mise à jour régulière des contenus disponibles sur les sites Internet et Intranet',
+          'Campagnes d\'e-mailings',
+          'Supervision de la refonte d\'un site internet, en lien avec notre prestataire Web',
+          'Participation active à la mise en place des ICONA D\'OR, le concours des professionnels de la Communication Visuelle',
+          'Présence sur le stand e-VISIONS lors des 3 jours du salon C!Print 2020 à Lyon, à la rencontre des prospects et adhérents de l\'Organisation professionnelle'
+        ]
+      },
+      {
+        title: 'Comptabilité :',
+        tasks: [
+          'Refonte et entretien de documents comptables',
+          'Suivi et enregistrement des flux',
+          'Rédaction de reportings'
+        ]
+      },
+      {
+        title: 'Assistanat Administratif :',
+        tasks: [
+          'Interlocuteur privilégié des 500 adhérents de e-VISIONS, par téléphone, email et courrier',
+          'Rédaction de procédures sur le poste',
+          'Réservations / commandes diverses : salles de réunion, déplacement, fournitures, transporteurs',
+          'Gestion du courrier : réception, traitement, dispatch et affranchissement'
+        ]
+      }
+    ],
+    engMissions: [
+      {
+        engTitle: 'Web & Communication',
+        engTasks: [
+          'Web site',
+          'Intranet site',
+          'Event'
+        ]
+      }
+    ]
   }
 ]
