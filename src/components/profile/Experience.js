@@ -7,7 +7,7 @@ import EngMission from './EngMission'
 
 import './Experience.css'
 
-const Experience = ({ lang, expe: { date, engDate, position, engPosition, company, legend, engLegend, missions, engMissions } }) => {
+const Experience = ({ lang, expe: { id, date, engDate, position, engPosition, company, legend, engLegend, missions, engMissions } }) => {
   return (
     <div className='Experience'>
       <div className='ExperienceInfo'>
@@ -38,7 +38,7 @@ const Experience = ({ lang, expe: { date, engDate, position, engPosition, compan
           missions.map((mission, index) => <Mission key={index} mission={mission} />)
           : engMissions.map((engMission, index) => <EngMission key={index} engMission={engMission} />)}
       </div>
-      <p className='ExperienceSeparator'>******************</p>
+      {id > 1 && <p className='ItemSeparator'>****************</p>}
     </div>
   )
 }

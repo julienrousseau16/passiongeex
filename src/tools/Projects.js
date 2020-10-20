@@ -31,6 +31,21 @@ export const projects = [
   },
   {
     id: 3,
+    name: 'Whack-A-Virus',
+    slug: 'whack-a-virus',
+    type: 'hackathon',
+    duration: '24 heures',
+    engDuration: '24 hours',
+    date: 'Avril 2020',
+    engDate: 'April 2020',
+    team: 8,
+    mobilepic: 'pokefight/pokefight_mobilepreview.png',
+    pic: 'pokefight/pokefight_preview.png',
+    link: 'https://condescending-hypatia-22b592.netlify.app/',
+    github: 'https://github.com/julienrousseau16/whack-a-virus'
+  },
+  {
+    id: 4,
     name: 'Virtual Waiting Room',
     slug: 'virtual-waiting-room',
     type: 'hackathon',

@@ -24,7 +24,7 @@
 }
 
 .Navbar {
-  width: 70%;
+  width: 72%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@
   display: flex;
   align-items: center;
   padding-left: 10px;
-  width: 15%;
+  width: 13%;
   height: 40%;
   border-left: 1px solid grey;
 }

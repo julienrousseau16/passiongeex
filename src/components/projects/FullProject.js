@@ -9,7 +9,7 @@ import CarouselImg from './CarouselImg'
 import { LangContext } from '../../tools/LangContext'
 
 /* DEV REFERENCE */
-import { project } from '../../tools/Project'
+import { project } from '../../tools/DemoProject'
 /* END OF DEV REFERENCE */
 
 import './FullProject.css'

@@ -14,16 +14,16 @@ const Header = () => {
 
   return (
     <div className='Header'>
-      <div className='HeaderLogoContainer'>
+      <Link to='/home' className='HeaderLogoContainer'>
         <img src={require('../../pictures/logo-short.png')} alt='logo' />
-      </div>
+      </Link>
       <nav className='Navbar'>
         <ul className='NavList'>
           <Link to='/home/profile' className='NavItem'>
             {lang === 'FR' ? 'Profil' : 'Profile'}
           </Link>
           <Link to='/home/projects' className='NavItem'>
-            {lang === 'FR' ? 'Projets' : 'Projects'}
+            {lang === 'FR' ? 'Projets Web' : 'Web Projects'}
           </Link>
           <Link to='/home/references' className='NavItem'>
             {lang === 'FR' ? 'Références' : 'References'}
