@@ -32,7 +32,7 @@ const MainContainer = () => {
               <ProjectsContainer />
             </Route>
             <Route path='/home/project/'>
-              <FullProject project={selectedProject} />
+              <FullProject />
             </Route>
             <Route path='/home/references'>
               <ReferencesContainer />

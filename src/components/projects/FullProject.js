@@ -7,10 +7,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import CarouselImg from './CarouselImg'
 
 import { LangContext } from '../../tools/LangContext'
+import { ProjectContext } from '../../tools/ProjectContext'
 
-/* DEV REFERENCE */
-import { project } from '../../tools/DemoProject'
-/* END OF DEV REFERENCE */
 
 import './FullProject.css'
 
@@ -19,10 +17,9 @@ const FullProject = () => {
   const [appear, setAppear] = useState(false)
   const [complete, setComplete] = useState(false)
   const { lang } = useContext(LangContext)
+  const { selectedProject } = useContext(ProjectContext)
 
-  /* DEV REFERENCE */
-  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, link, github, video } = project
-  /* END OF DEV REFERENCE */
+  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, link, github, github2, video } = selectedProject
 
   const textToggle = () => {
     setComplete(!complete)
@@ -85,18 +82,24 @@ const FullProject = () => {
           {lang === 'FR' ? 'Pour aller plus loin' : 'To go further'}
         </h2>
         <ul>
-          <li>
+          {link !== '' && <li>
             <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
             <a href={link} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Essayer cette application' : 'Try this App'}
             </a>
-          </li>
-          <li>
+          </li>}
+          {github !== '' && <li>
             <FontAwesomeIcon icon={faGithub} className='icon' />
             <a href={github} target='_blank' rel="noopener noreferrer">
-              {lang === 'FR' ? 'Lien vers Github' : 'See the Github repo'}
+              {lang === 'FR' ? 'Lien vers Github (front-end)' : 'See the Github repo (front-end)'}
             </a>
-          </li>
+          </li>}
+          {github2 !== '' && <li>
+            <FontAwesomeIcon icon={faGithub} className='icon' />
+            <a href={github} target='_blank' rel="noopener noreferrer">
+              {lang === 'FR' ? 'Lien vers Github (back-end)' : 'See the Github repo (back-end)'}
+            </a>
+          </li>}
           {video !== '' && <li>
             <FontAwesomeIcon icon={faFilm} />
             <a href={video} target='_blank' rel="noopener noreferrer">

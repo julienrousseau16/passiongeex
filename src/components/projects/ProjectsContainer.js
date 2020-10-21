@@ -23,7 +23,7 @@ const ProjectsContainer = () => {
       </h2>
       <div className='ProjectsCategory'>
         {projects
-          .filter(project => project.type === 'school')
+          .filter(project => project.type === 'wip')
           .map(project => <ProjectPreview key={project.id} project={project} />)
         }
       </div>
@@ -32,7 +32,7 @@ const ProjectsContainer = () => {
       </h2>
       <div className='ProjectsCategory'>
         {projects
-          .filter(project => project.type === 'hackathon')
+          .filter(project => project.type === 'personal')
           .map(project => <ProjectPreview key={project.id} project={project} />)
         }
       </div>
@@ -48,7 +48,7 @@ const ProjectsContainer = () => {
       </h2>
       <div className='ProjectsCategory'>
         {projects
-          .filter(project => project.type === 'hackathon')
+          .filter(project => project.type === 'internship')
           .map(project => <ProjectPreview key={project.id} project={project} />)
         }
       </div>
