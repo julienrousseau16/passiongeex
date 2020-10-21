@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 
 import App from './App'
+import ScrollToTop from './tools/ScrollToTop'
 
 import './index.css'
 
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App />
+      <ScrollToTop />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
