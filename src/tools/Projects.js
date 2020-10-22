@@ -9,8 +9,18 @@ export const projects = [
     date: 'Mars 2020',
     engDate: 'March \'20',
     team: 6,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: ["Après 1 semaine de cours à la Wild Code School, le temps était venu de mettre en pratique ce que nous venions d'apprendre, à savoir : les rudiments d'HTML et CSS (et notamment le système Flexbox) ainsi que la CLI et le versioning via Git.",
+    "Des groupes ont donc été formés pour travailler sur la thématique suivante : 'Un site vitrine pour un photographe', à monter en 5 jours en n'utilisant que de l'HTML et du CSS, et à présenter oralement.",
+    "Avec l'équipe, nous avons choisi de ne pas nous limiter à ce sujet, tout en nous amusant avec. Notre idée: construire le site vitrine comme attendu, mais qui ne serait qu'une façade pour rejoindre le Dark Web...",
+    "C'est ainsi qu'est né Drake R. Porter, photographe amateur, et alter ego de son anagramme... Dark Reporter, une sorte d'aventurier parcourant le monde à la recherche de contrées inconnues, pour dénicher des trésors et articles qui ne pourraient être vendus sur e-commerce conventionnel !",
+    "Quand vous arrivez sur le site de Drake, des couleurs improbables et des photos à l'esthétique franchement douteuse vous sautent immédiatement aux yeux... N'ayez crainte, l'effet est voulu (n'allez pas vous dire que nous n'avons aucun goût !) et c'est en cliquant sur 'Groupe 5' dans le footer que vous accédez à une page de transition dans laquelle vous saisissez un 'Dark ID' pour entrer sur le site définitif..."],
+
+    engDescription: ["After studying 1 week at Wild Code School, it was time to practice what we just learnt : basics of HTML and CSS (especially the Flexbox system), CLI and versioning work with Git.",
+    "Groups were randomly created to work on the following theme : 'A showcase website for a photographer', built in 5 days, using HTML/CSS only and presented during an oral demo.",
+    "We chose not to limit ourselves to this topic, while having fun with it. Our idea: to build a showcase website as expected, which would be a smokescreen to enter the Dark Web...",
+    "In this spirit, we created Drake R. Porter, an amateur photographer, alter ego of the anagram... Dark Reporter, sort of an explorer travelling the world, seeking treasures and items which could not be found on a conventional e-shop !",
+    "When you land on Drake's website, unlikely colors and unesthetic pictures immediately strike you... Don't worry, this is what we expected (don't take it as a lack of design taste from us !) The only way to escape this rainbow monstruosity is to click on 'Group 5' at the bottom of the page, which will give you access to a transition page where you have to enter a 'Dark ID' to get to the final website..."],
+
     mobilepic: 'drake/drake_mobilepreview.png',
     gallery: [
       {
@@ -49,7 +59,7 @@ export const projects = [
         engTitle: 'Real website - Contact'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'drake/drake1.jpg',
         title: 'Site fictif - 1/2',
@@ -148,7 +158,7 @@ export const projects = [
         engTitle: 'Statistics'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'pokefight/pokefight1.jpg',
         title: 'Introduction',
@@ -237,7 +247,7 @@ export const projects = [
         engTitle: 'Victory'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'whack/whack1.jpg',
         title: 'Entrée du joueur',
@@ -331,7 +341,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',
@@ -445,7 +455,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',
@@ -559,7 +569,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',
@@ -673,7 +683,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',
@@ -787,7 +797,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',
@@ -901,7 +911,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    maxGallery : [
+    maxGallery: [
       {
         img: 'vwr/virtual1.jpg',
         title: 'Victoire du Hackathon !',

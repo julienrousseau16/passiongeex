@@ -64,15 +64,15 @@
 
 .Gallery {
   padding-top: 20px;
+  transition: 0.3 ease-in-out;
 }
 .Gallery h2, .More h2 {
   text-align: center;
   color: #fff;
   margin-bottom: 20px;
 }
-.rec-carousel-wrapper {
-  height: fit-content;
-}
+
+
 .rec-arrow-left, .rec-arrow-right {
   font-size: 10px !important;
   font-weight: bold;

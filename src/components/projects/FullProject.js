@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import Carousel from 'react-elastic-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt, faHourglassHalf, faUsers, faArrowAltCircleRight, faFilm } from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +14,6 @@ import './FullProject.css'
 
 const FullProject = () => {
 
-  const [appear, setAppear] = useState(false)
   const [complete, setComplete] = useState(false)
   const { lang } = useContext(LangContext)
   const { selectedProject } = useContext(ProjectContext)
@@ -25,12 +24,8 @@ const FullProject = () => {
     setComplete(!complete)
   }
 
-  useEffect(() => {
-    setAppear(true)
-  }, [])
-
   return (
-    <div className='FullProject' style={appear ? { opacity: 1 } : { opacity: 0 }}>
+    <div className='FullProject'>
 
       <section className='ProjectHeader'>
         <img src={require(`../../pictures/${pic}`)} alt='project' />
