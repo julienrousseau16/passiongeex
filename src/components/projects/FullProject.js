@@ -77,25 +77,25 @@ const FullProject = () => {
           {lang === 'FR' ? 'Pour aller plus loin' : 'To go further'}
         </h2>
         <ul>
-          {link !== '' && <li>
+          {"link" in selectedProject && <li>
             <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
             <a href={link} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Essayer cette application' : 'Try this App'}
             </a>
           </li>}
-          {github !== '' && <li>
+          {"github" in selectedProject && <li>
             <FontAwesomeIcon icon={faGithub} className='icon' />
             <a href={github} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Lien vers Github (front-end)' : 'See the Github repo (front-end)'}
             </a>
           </li>}
-          {github2 !== '' && <li>
+          {"github2" in selectedProject && <li>
             <FontAwesomeIcon icon={faGithub} className='icon' />
-            <a href={github} target='_blank' rel="noopener noreferrer">
+            <a href={github2} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Lien vers Github (back-end)' : 'See the Github repo (back-end)'}
             </a>
           </li>}
-          {video !== '' && <li>
+          {"video" in selectedProject && <li>
             <FontAwesomeIcon icon={faFilm} />
             <a href={video} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Voir la vidéo' : 'Watch the video'}

@@ -13,13 +13,15 @@ export const projects = [
     "Des groupes ont donc été formés pour travailler sur la thématique suivante : 'Un site vitrine pour un photographe', à monter en 5 jours en n'utilisant que de l'HTML et du CSS, et à présenter oralement.",
     "Avec l'équipe, nous avons choisi de ne pas nous limiter à ce sujet, tout en nous amusant avec. Notre idée: construire le site vitrine comme attendu, mais qui ne serait qu'une façade pour rejoindre le Dark Web...",
     "C'est ainsi qu'est né Drake R. Porter, photographe amateur, et alter ego de son anagramme... Dark Reporter, une sorte d'aventurier parcourant le monde à la recherche de contrées inconnues, pour dénicher des trésors et articles qui ne pourraient être vendus sur e-commerce conventionnel !",
-    "Quand vous arrivez sur le site de Drake, des couleurs improbables et des photos à l'esthétique franchement douteuse vous sautent immédiatement aux yeux... N'ayez crainte, l'effet est voulu (n'allez pas vous dire que nous n'avons aucun goût !) et c'est en cliquant sur 'Groupe 5' dans le footer que vous accédez à une page de transition dans laquelle vous saisissez un 'Dark ID' pour entrer sur le site définitif..."],
+    "Quand vous arrivez sur le site de Drake, des couleurs improbables et des photos à l'esthétique franchement douteuse vous sautent immédiatement aux yeux... N'ayez crainte, l'effet est voulu (n'allez pas vous dire que nous n'avons aucun goût !) et c'est en cliquant sur 'Groupe 5' dans le footer que vous accédez à une page de transition dans laquelle vous saisissez un 'Dark ID' pour entrer sur le site définitif...",
+    "Alors, si un article retient votre attention... N'hésitez pas et faites chauffer les Bitcoins !!"],
 
     engDescription: ["After studying 1 week at Wild Code School, it was time to practice what we just learnt : basics of HTML and CSS (especially the Flexbox system), CLI and versioning work with Git.",
     "Groups were randomly created to work on the following theme : 'A showcase website for a photographer', built in 5 days, using HTML/CSS only and presented during an oral demo.",
     "We chose not to limit ourselves to this topic, while having fun with it. Our idea: to build a showcase website as expected, which would be a smokescreen to enter the Dark Web...",
     "In this spirit, we created Drake R. Porter, an amateur photographer, alter ego of the anagram... Dark Reporter, sort of an explorer travelling the world, seeking treasures and items which could not be found on a conventional e-shop !",
-    "When you land on Drake's website, unlikely colors and unesthetic pictures immediately strike you... Don't worry, this is what we expected (don't take it as a lack of design taste from us !) The only way to escape this rainbow monstruosity is to click on 'Group 5' at the bottom of the page, which will give you access to a transition page where you have to enter a 'Dark ID' to get to the final website..."],
+    "When you land on Drake's website, unlikely colors and unesthetic pictures immediately strike you... Don't worry, this is what we expected (don't take it as a lack of design taste from us !) The only way to escape this rainbow monstruosity is to click on 'Group 5' at the bottom of the page, which will give you access to a transition page where you have to enter a 'Dark ID' to get to the final website...",
+    "So, if you find something interesting... Don't hesitate to use your Bitcoins !!"],
 
     mobilepic: 'drake/drake_mobilepreview.png',
     gallery: [
@@ -103,9 +105,7 @@ export const projects = [
     ],
     pic: 'drake/drake_preview.png',
     link: 'https://jerkodeur.github.io/DrakeRporter',
-    github: 'https://github.com/julienrousseau16/DrakeRporter',
-    github2: '',
-    video: ''
+    github: 'https://github.com/julienrousseau16/DrakeRporter'
   },
 
   {
@@ -118,8 +118,34 @@ export const projects = [
     date: 'Avril à Mai 2020',
     engDate: 'April to May \'20',
     team: 5,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      "Ce 2e projet à la Wild Code School était l'occasion de monter une application en React, le langage au coeur de la formation. Cett fois, pas de sujet imposé, les seuls impératifs de ce projet étaient faire appel à une (ou plusieurs) API(s) et de créer l'application en 5 semaines - nous avons choisi de créer une réplique du jeu Pokémon, POKEFIGHT (oui, grosse inspiration générale au moment de choisir le nom !)",
+      "Alors, réplique... Oui et non ! Disons que nous avons mis de côté l'aspect exploration, jeu de rôle etc, et nous nous sommes concentrés sur la partie combat (ce qui était déjà un beau challenge pour nous !)",
+      "Nos partis-pris pour cette application :",
+      "L'ADVERSAIRE - Sur ce point, nous voulions respecter l'esprit du jeu d'origine, à savoir donner la possibilité au joueur de pouvoir affronter l'ordinateur ou un ami (sur la même interface).",
+      "LE POKEDEX - le but était de créer un pokedex simple, esthétique, mais aussi fonctionnel. En effet, vous avez la possibilité de trier les pokemons de 4 façons différentes - par type, par génération, par nom via une barre de recherche (en anglais) ou par une selection aléatoire.",
+      "NOMBRE DE POKEMONS - nous avons choisi, notamment pour des raisons de performance, de nous concentrer sur les 3 premières générations, ce qui laisse tout de même un choix de + de 350 pokemons",
+      "L'ALEATOIRE - nous nous sommes affranchis de certaines règles du jeu d'origine, pour notamment équilibrer le rapport de force entre certains pokemons:",
+      "- En temps normal, plus un pokemon combat, plus son niveau évolue. Ici, un niveau implicite et unique est appliqué, et 100 points de vie sont attribués aux combattants.",
+      "- Quand son niveau augmente, le pokemon apprend de nouvelles attaques - pour cette application, nous avons donc fait appel à l'API Pokémon qui propose pas moins d'une soixantaine d'attaques par pokemon. A chaque nouveau combat, 4 attaques sont choisies au hasard pour figurer dans la liste des actions possibles en combat (à noter que 2 potions sont fournies à chaque combattant).",
+      "- Et puisque l'on parle des attaques... Dans le jeu original, les attaques sont typées (l'eau inflige des dégâts importants aux pokemons de feu etc). Dans PokeFight, chaque attaque pour chaque nouveau combat se voit attribuer un nombre de dégâts situé entre 15 et 35 PV - une seconde fonctionnalité vient s'ajouter aux dégâts initiaux, qui détermine aléatoirement si l'attaque va échouer, infligera des dégâts neutres, importants, très importants voire un coup critique.",
+      "Maintenant que vous avez toutes les cartes en main... Combattez-les tous !"
+    ],
+
+    engDescription: [
+      "This 2nd Wild Code School projet gave us the opportunity to build a React App, the main framework of this training. This time, no mandatory topic, this only instructions were to make at least 1 API call and to create the app in 5 weeks - we chose to present a Pokemon replica, called POKEFIGHT (yup, big inpiration on this one !)",
+      "Well, a replica... more or less ! Let's say we put the whole exploration and roleplaying game aspects aside, and focused on the fight dimension (which was already a nice challenge for us !)",
+      "Our biases for this app :",
+      "THE OPPONENT - in order to respect the original game spirit, we gave the player the possibility the confront both the computer or a friend (on the same interface).",
+      "THE POKEDEX - our intention was to create a simple, pretty and functional pokedex. Indeed, the user can sort the pokemons in 4 different ways - by type, generation, name (through a english search bar) or with a random feature.",
+      "TOTAL OF POKEMONS - we chose - for performance reasons - to focus on the first 3 generations, which still gives you the choice among more than 350 pokemons",
+      "THE RANDOM ASPECT - we decided not to follow several original game rules, especially to restore the power balance between some pokemons :",
+      "- Normally, the more a pokemon fights, the more its level increases. Here, a general level is applied and 100 life points are assigned to each fighter.",
+      "- When its level increases, the pokemon can learn new attacks - for this app, we used the Pokemon API which includes more than 60 attacks per pokemon. For every new match, 4 attacks are randomly selected to appear in the fight action list (note: each fighter disposes of 2 potions).",
+      "- Speaking of attacks... In the original game, the attacks are type-related (Water does important damages to Fire pokemons etc). In the PokeFight App, for every single attack in every new single, 15 to 35 life points are assigned - with theses initial damages comes a second feature, which randomly determines if the attack is going to fail, to do basic, important or important damages, or even a critical hit.",
+      "Now that the app has no secrets for you... Go Fight'em All !"
+    ],
+
     mobilepic: 'pokefight/pokefight_mobilepreview.png',
     gallery: [
       {
@@ -202,9 +228,7 @@ export const projects = [
     ],
     pic: 'pokefight/pokefight_preview.png',
     link: 'https://pokefight.netlify.app',
-    github: 'https://github.com/julienrousseau16/paris-0320-project2-PokeFight',
-    github2: '',
-    video: ''
+    github: 'https://github.com/julienrousseau16/paris-0320-project2-PokeFight'
   },
 
   {
@@ -217,8 +241,15 @@ export const projects = [
     date: 'Avril 2020',
     engDate: 'April \'20',
     team: 8,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      
+
+
+
+    ],
+    engDescription: [
+      
+    ],
     mobilepic: 'whack/whack_mobilepreview.png',
     gallery: [
       {
@@ -276,9 +307,7 @@ export const projects = [
     ],
     pic: 'whack/whack_preview.png',
     link: 'https://condescending-hypatia-22b592.netlify.app/',
-    github: 'https://github.com/julienrousseau16/whack-a-virus',
-    github2: '',
-    video: ''
+    github: 'https://github.com/julienrousseau16/whack-a-virus'
   },
 
   {
@@ -391,8 +420,7 @@ export const projects = [
     pic: 'vwr/vwr_preview.png',
     link: 'www.google.fr',
     github: 'https://github.com/julienrousseau16/hackarburer---Virtual-Waiting-Room',
-    github2: '',
-    video: ''
+    video: 'https://youtu.be/F2m-Io5FjIc?t=1622'
   },
 
   {
@@ -405,8 +433,23 @@ export const projects = [
     date: 'Juin à Juillet 2020',
     engDate: 'June to July \'20',
     team: 6,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+
+      "Ce 3e et dernier projet à la Wild Code School constituait l'aboutissement de cette formation professionnelle. D'une part, nous devions développer une application qui communiquerait avec un serveur back construit en NodeJs, et d'autre part chaque projet venait d'un client réel, pour lequel nous devions travailler suivant la méthode Scrum.",
+      "Le souhait de notre client était de recréer un jeu sur ordinateur auquel il avait passé beaucoup de temps à jouer il y a une dizaine d'années, et qui avait depuis disparu.",
+      "Le Concept ? Simple et efficace. Des sessions de jeu courtes au cours desquelles des images thématiques défilent et pour lesquelles le joueur doit saisir le nom correspond dans un temps imparti. Et justement, le temps a son importance : si chaque bonne réponse crédite le score total d'un nombre de points fixe, on ajoute à ce score autant de points que de secondes restantes avant la fin du temps imparti.",
+      "Pour alimenter la base de données, le client nous a fourni 24 thématiques composées de 10 images chacune, sachant qu'en tant qu'administrateur, il a la possibilité de rajouter/supprimer/modifier le contenu de ces thématiques via un espace back-office. Cet espace lui permet également de modifier les paramètres de jeu, comme temps imparti par réponse, le nombre de points accordés par bonne réponse, le nombre d'images par session de jeu etc.",
+      "Au-delà de l'aspect jeu, notre client souhaitait construire une communauté - nous avons donc développé la possibilité de créer un compte, avec un espace personnel, reprenant les statistiques du joueur, donnant la possibilité de modifier ses infos etc.",
+      "Enfin, en plus de l'espace personnel, nous avons conçu un forum articulé autour de 2 salons : un salon pour des sujets généraux, et un second dédié au jeu. Chaque utilisateur disposant d'un compte - et connecté ! - peut accéder au forum, créer des sujets et poster des messages. Dans un souci de contrôle, notre client a la possibilité - toujours via son espace back-office - de modérer des messages ou des sujets, d'avertir par message un utilisateur au comportement inapproprié, voire de le bannir si la situation l'y oblige.",
+    ],
+    engDescription: [
+      "This 3rd and last project at the Wild Code School really was the culmination of this professional training. In one hand, we had to develop an app communicating with a NodeJs back server, and in the other hand each project was dedicated to a real client, with whom we collaborated following the Scrum Method",
+      "Our client wanted to recreate a computer game he used to play a lot 10 years ago, which has disappeared by now.",
+      "This app's concept is simple. It is based on short game sessions in which theme pictures come and go and for which the player has to enter a matching answer within a required timescale. And time has its importance : every correct answer gives a fixed amount of points + as many points as the remaining seconds before time's up.",
+      "In order to fill the database, the client gave us 24 themes, each containing 10 pictures. Just so you know, as the administrator, he totally can add/remove/modify the content of this themes via a back-office interface. This dashboard also allows him to change the game settings, sush as the required timescale, the amount of points for each correct answer, the total of pictures per session etc.",
+      "Beyond the gaming aspect, the other will of our client was to built a community - therefore, we developed an account creation feature, leading to a personal page, on which you can find the user's statistics, or modify your personal data etc.",
+      "Finally, we also conceived a forum, proposing 2 'rooms' : a room dedicated to general topics, and a second one related to the app. Each registered user has access to the forum, can create topics and post messages. In the interest of control, our client has the possibility - via his back-office interface - to moderate messages and topics, to warn a user posting inappropriate content, even to ban this user if necessary.",
+    ],
     mobilepic: 'pictyquiz/pictyquiz_mobilepreview.png',
     gallery: [
       {
@@ -503,10 +546,8 @@ export const projects = [
       }
     ],
     pic: 'pictyquiz/pictyquiz_preview.png',
-    link: '',
     github: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-front',
-    github2: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-back',
-    video: ''
+    github2: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-back'
   },
 
   {
@@ -617,10 +658,7 @@ export const projects = [
       }
     ],
     pic: 'ddp/ddp_preview.png',
-    link: 'https://lesdemoisellesdeplume.fr',
-    github: '',
-    github2: '',
-    video: ''
+    link: 'https://lesdemoisellesdeplume.fr'
   },
 
   {
@@ -731,10 +769,7 @@ export const projects = [
       }
     ],
     pic: 'sdd/sdd_preview.png',
-    link: 'https://lesdemoisellesdeplume.fr',
-    github: '',
-    github2: '',
-    video: ''
+    link: 'https://lesdemoisellesdeplume.fr'
   },
 
   {
@@ -845,10 +880,7 @@ export const projects = [
       }
     ],
     pic: 'tdl/tdl_preview.png',
-    link: '',
-    github: 'https://github.com/julienrousseau16/hog_hole',
-    github2: '',
-    video: ''
+    github: 'https://github.com/julienrousseau16/hog_hole'
   },
 
   {
@@ -959,10 +991,7 @@ export const projects = [
       }
     ],
     pic: 'pg/pg_preview.png',
-    link: '',
-    github: 'https://github.com/julienrousseau16/passiongeex',
-    github2: '',
-    video: ''
+    github: 'https://github.com/julienrousseau16/passiongeex'
   }
 ]
 
