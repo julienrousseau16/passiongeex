@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react'
+import { useLocation } from 'react-router-dom'
 import Carousel from 'react-elastic-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt, faHourglassHalf, faUsers, faArrowAltCircleRight, faFilm } from '@fortawesome/free-solid-svg-icons'
@@ -7,8 +8,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import CarouselImg from './CarouselImg'
 
 import { LangContext } from '../../tools/LangContext'
-import { ProjectContext } from '../../tools/ProjectContext'
-
 
 import './FullProject.css'
 
@@ -16,9 +15,8 @@ const FullProject = () => {
 
   const [complete, setComplete] = useState(false)
   const { lang } = useContext(LangContext)
-  const { selectedProject } = useContext(ProjectContext)
 
-  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, maxGallery, link, github, github2, video } = selectedProject
+  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, maxGallery, link, github, github2, video } = useLocation().project
 
   const textToggle = () => {
     setComplete(!complete)
@@ -79,25 +77,25 @@ const FullProject = () => {
           {lang === 'FR' ? 'Pour aller plus loin' : 'To go further'}
         </h2>
         <ul>
-          {"link" in selectedProject && <li>
+          {"link" in useLocation().project && <li>
             <FontAwesomeIcon icon={faArrowAltCircleRight} className='icon' />
             <a href={link} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Essayer cette application' : 'Try this App'}
             </a>
           </li>}
-          {"github" in selectedProject && <li>
+          {"github" in useLocation().project && <li>
             <FontAwesomeIcon icon={faGithub} className='icon' />
             <a href={github} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Lien vers Github (front-end)' : 'See the Github repo (front-end)'}
             </a>
           </li>}
-          {"github2" in selectedProject && <li>
+          {"github2" in useLocation().project && <li>
             <FontAwesomeIcon icon={faGithub} className='icon' />
             <a href={github2} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Lien vers Github (back-end)' : 'See the Github repo (back-end)'}
             </a>
           </li>}
-          {"video" in selectedProject && <li>
+          {"video" in useLocation().project && <li>
             <FontAwesomeIcon icon={faFilm} />
             <a href={video} target='_blank' rel="noopener noreferrer">
               {lang === 'FR' ? 'Voir la vidéo' : 'Watch the video'}

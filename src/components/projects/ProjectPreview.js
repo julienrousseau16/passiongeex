@@ -1,17 +1,14 @@
-import React, { useContext } from 'react'
-import { NavLink as Link } from 'react-router-dom'
-import { ProjectContext } from '../../tools/ProjectContext'
-
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 import './ProjectPreview.css'
 
 const ProjectPreview = ({ project }) => {
 
-  const { setSelectedProject } = useContext(ProjectContext)
-
   return (
     <div className='ProjectPreview'>
-      <Link onClick={() => setSelectedProject(project)} to={`/home/project/${project.slug}`}><img src={require('../../pictures/' + project.mobilepic)} alt='project preview' /></Link>
+      <NavLink to={{ pathname: `/home/project/${project.slug}`, project: project }}><img src={require('../../pictures/' + project.mobilepic)} alt='project preview' /></NavLink>
+      <p style={{ color: '#fff' }}>{project.slug}</p>
     </div>
   )
 }
