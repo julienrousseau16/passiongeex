@@ -18,7 +18,7 @@ const FullProject = () => {
   const { lang } = useContext(LangContext)
   const { selectedProject } = useContext(ProjectContext)
 
-  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, link, github, github2, video } = selectedProject
+  const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, maxGallery, link, github, github2, video } = selectedProject
 
   const textToggle = () => {
     setComplete(!complete)
@@ -68,7 +68,9 @@ const FullProject = () => {
           {lang === 'FR' ? 'Galerie' : 'Gallery'}
         </h2>
         <Carousel>
-          {gallery.map((image, index) => <CarouselImg key={index} image={image} />)}
+          {window.screen.width < 768 ?
+            gallery.map((image, index) => <CarouselImg key={index} image={image} />)
+            : maxGallery.map((image, index) => <CarouselImg key={index} image={image} />)}
         </Carousel>
       </section>
 

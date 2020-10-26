@@ -53,7 +53,7 @@ const ProjectsContainer = () => {
         }
       </div>
       <h2>
-        {lang === 'FR' ? 'Ecole': 'School'}
+        {lang === 'FR' ? 'Ecole' : 'School'}
       </h2>
       <div className='ProjectsCategory'>
         {projects

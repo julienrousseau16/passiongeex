@@ -9,19 +9,23 @@ export const projects = [
     date: 'Mars 2020',
     engDate: 'March \'20',
     team: 6,
-    description: ["Après 1 semaine de cours à la Wild Code School, le temps était venu de mettre en pratique ce que nous venions d'apprendre, à savoir : les rudiments d'HTML et CSS (et notamment le système Flexbox) ainsi que la CLI et le versioning via Git.",
-    "Des groupes ont donc été formés pour travailler sur la thématique suivante : 'Un site vitrine pour un photographe', à monter en 5 jours en n'utilisant que de l'HTML et du CSS, et à présenter oralement.",
-    "Avec l'équipe, nous avons choisi de ne pas nous limiter à ce sujet, tout en nous amusant avec. Notre idée: construire le site vitrine comme attendu, mais qui ne serait qu'une façade pour rejoindre le Dark Web...",
-    "C'est ainsi qu'est né Drake R. Porter, photographe amateur, et alter ego de son anagramme... Dark Reporter, une sorte d'aventurier parcourant le monde à la recherche de contrées inconnues, pour dénicher des trésors et articles qui ne pourraient être vendus sur e-commerce conventionnel !",
-    "Quand vous arrivez sur le site de Drake, des couleurs improbables et des photos à l'esthétique franchement douteuse vous sautent immédiatement aux yeux... N'ayez crainte, l'effet est voulu (n'allez pas vous dire que nous n'avons aucun goût !) et c'est en cliquant sur 'Groupe 5' dans le footer que vous accédez à une page de transition dans laquelle vous saisissez un 'Dark ID' pour entrer sur le site définitif...",
-    "Alors, si un article retient votre attention... N'hésitez pas et faites chauffer les Bitcoins !!"],
+    description: [
+      "Après 1 semaine de cours à la Wild Code School, le temps était venu de mettre en pratique ce que nous venions d'apprendre, à savoir : les rudiments d'HTML et CSS (et notamment le système Flexbox) ainsi que la CLI et le versioning via Git.",
+      "Des groupes ont donc été formés pour travailler sur la thématique suivante : 'Un site vitrine pour un photographe', à monter en 5 jours en n'utilisant que de l'HTML et du CSS, et à présenter oralement.",
+      "Avec l'équipe, nous avons choisi de ne pas nous limiter à ce sujet, tout en nous amusant avec. Notre idée: construire le site vitrine comme attendu, mais qui ne serait qu'une façade pour rejoindre le Dark Web...",
+      "C'est ainsi qu'est né Drake R. Porter, photographe amateur, et alter ego de son anagramme... Dark Reporter, une sorte d'aventurier parcourant le monde à la recherche de contrées inconnues, pour dénicher des trésors et articles qui ne pourraient être vendus sur e-commerce conventionnel !",
+      "Quand vous arrivez sur le site de Drake, des couleurs improbables et des photos à l'esthétique franchement douteuse vous sautent immédiatement aux yeux... N'ayez crainte, l'effet est voulu (n'allez pas vous dire que nous n'avons aucun goût !) et c'est en cliquant sur 'Groupe 5' dans le footer que vous accédez à une page de transition dans laquelle vous saisissez un 'Dark ID' pour entrer sur le site définitif...",
+      "Alors, si un article retient votre attention... N'hésitez pas et faites chauffer les Bitcoins !!"
+    ],
 
-    engDescription: ["After studying 1 week at Wild Code School, it was time to practice what we just learnt : basics of HTML and CSS (especially the Flexbox system), CLI and versioning work with Git.",
-    "Groups were randomly created to work on the following theme : 'A showcase website for a photographer', built in 5 days, using HTML/CSS only and presented during an oral demo.",
-    "We chose not to limit ourselves to this topic, while having fun with it. Our idea: to build a showcase website as expected, which would be a smokescreen to enter the Dark Web...",
-    "In this spirit, we created Drake R. Porter, an amateur photographer, alter ego of the anagram... Dark Reporter, sort of an explorer travelling the world, seeking treasures and items which could not be found on a conventional e-shop !",
-    "When you land on Drake's website, unlikely colors and unesthetic pictures immediately strike you... Don't worry, this is what we expected (don't take it as a lack of design taste from us !) The only way to escape this rainbow monstruosity is to click on 'Group 5' at the bottom of the page, which will give you access to a transition page where you have to enter a 'Dark ID' to get to the final website...",
-    "So, if you find something interesting... Don't hesitate to use your Bitcoins !!"],
+    engDescription: [
+      "After studying 1 week at Wild Code School, it was time to practice what we just learnt : basics of HTML and CSS (especially the Flexbox system), CLI and versioning work with Git.",
+      "Groups were randomly created to work on the following theme : 'A showcase website for a photographer', built in 5 days, using HTML/CSS only and presented during an oral demo.",
+      "We chose not to limit ourselves to this topic, while having fun with it. Our idea: to build a showcase website as expected, which would be a smokescreen to enter the Dark Web...",
+      "In this spirit, we created Drake R. Porter, an amateur photographer, alter ego of the anagram... Dark Reporter, sort of an explorer travelling the world, seeking treasures and items which could not be found on a conventional e-shop !",
+      "When you land on Drake's website, unlikely colors and unesthetic pictures immediately strike you... Don't worry, this is what we expected (don't take it as a lack of design taste from us !) The only way to escape this rainbow monstruosity is to click on 'Group 5' at the bottom of the page, which will give you access to a transition page where you have to enter a 'Dark ID' to get to the final website...",
+      "So, if you find something interesting... Don't hesitate to use your Bitcoins !!"
+    ],
 
     mobilepic: 'drake/drake_mobilepreview.png',
     gallery: [
@@ -242,13 +246,16 @@ export const projects = [
     engDate: 'April \'20',
     team: 8,
     description: [
-      
-
-
-
+      "Premier Hackathon organisé en interne par la Wild Code School.",
+      "Le topo : 24 heures pour réaliser un project sur un sujet libre, ou basé sur la thématique de l'Evasion (clairement inspiré de la période de confinement dans laquelle nous étions !), en utilisant la techno de notre choix.",
+      "Pour nous aussi, le contexte sanitaire du moment a clairement joué sur nos choix, car nous avons opté pour un jeu à la manière du célèbre Whack-a-Mole, adapté à la sauce Virus-mortel-qui-menace-la-planète...",
+      "Le principe : cliquer sur le virus afin de ralentir - et éradiquer - sa propagation, symbolisée par un thermomètre. Attention toutefois à ne pas cliquer sur l'icône ( + ) qui va renforcer la résistance du virus et accélérer ses effets dévastateurs..."
     ],
     engDescription: [
-      
+      "This was the first Hackathon organized for the students of the Wild Code School.",
+      "The instructions : we had 24 hours to realize a project about either a free subject or a subject based on 'Escaping' (definitely inspired from the quarantine we were experiencing at this moment !) using whatever tech language we wanted.",
+      "This sanitary context clearly guided our choice, as we built a Whack-a-Mole adaptation, in which the mole is replaced by a global virus threatening the human kind...",
+      "The rules : you have to click on the virus prevent it from spreading - the propagation is symbolized by a thermometer. However, beware not to click on the ( + ) icon, whick increases the virus' defenses et accelerates its damages..."
     ],
     mobilepic: 'whack/whack_mobilepreview.png',
     gallery: [
