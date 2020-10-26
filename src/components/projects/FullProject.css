@@ -43,7 +43,18 @@
 }
 
 .Description .text {
+  position: relative;
   overflow: hidden;
+}
+
+.Description .text:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -15px;
+  right: -15px;
+  box-shadow: inset rgb(0, 0, 0) 0 -5px 10px;
 }
 
 .Description p {
@@ -66,12 +77,12 @@
   padding-top: 20px;
   transition: 0.3 ease-in-out;
 }
+
 .Gallery h2, .More h2 {
   text-align: center;
   color: #fff;
   margin-bottom: 20px;
 }
-
 
 .rec-arrow-left, .rec-arrow-right {
   font-size: 10px !important;
@@ -86,9 +97,11 @@
   border: 2px solid transparent !important;
   color: #fff !important;
 }
+
 .rec-dot {
   background-color: #fff !important;
 }
+
 .rec-dot_active {
   background-color: rgba(126, 5, 27, 0.5) !important;
   box-shadow: 0 0 1px 3px rgba(248, 0, 45, 0.5) !important;

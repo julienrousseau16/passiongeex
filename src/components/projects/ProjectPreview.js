@@ -8,7 +8,6 @@ const ProjectPreview = ({ project }) => {
   return (
     <div className='ProjectPreview'>
       <NavLink to={{ pathname: `/home/project/${project.slug}`, project: project }}><img src={require('../../pictures/' + project.mobilepic)} alt='project preview' /></NavLink>
-      <p style={{ color: '#fff' }}>{project.slug}</p>
     </div>
   )
 }

@@ -14,8 +14,8 @@ import './FullProject.css'
 const FullProject = () => {
 
   const [complete, setComplete] = useState(false)
-  const { lang } = useContext(LangContext)
 
+  const { lang } = useContext(LangContext)
   const { name, duration, engDuration, date, engDate, description, engDescription, team, pic, gallery, maxGallery, link, github, github2, video } = useLocation().project
 
   const textToggle = () => {
