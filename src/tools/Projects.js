@@ -27,7 +27,7 @@ export const projects = [
       "So, if you find something interesting... Don't hesitate to use your Bitcoins !!"
     ],
 
-    mobilepic: 'drake/drake_mobilepreview.png',
+    mobilepic: 'drake/drake_mobilepreview.jpg',
     gallery: [
       {
         img: 'drake/dr1.jpg',
@@ -107,7 +107,7 @@ export const projects = [
         engTitle: 'Real website - Contact'
       }
     ],
-    pic: 'drake/drake_preview.png',
+    pic: 'drake/drake_preview.jpg',
     link: 'https://jerkodeur.github.io/DrakeRporter',
     github: 'https://github.com/julienrousseau16/DrakeRporter'
   },
@@ -150,7 +150,7 @@ export const projects = [
       "Now that the app has no secrets for you... Go Fight'em All !"
     ],
 
-    mobilepic: 'pokefight/pokefight_mobilepreview.png',
+    mobilepic: 'pokefight/pokefight_mobilepreview.jpg',
     gallery: [
       {
         img: 'pokefight/poke1.jpg',
@@ -230,7 +230,7 @@ export const projects = [
         engTitle: 'Statistics'
       }
     ],
-    pic: 'pokefight/pokefight_preview.png',
+    pic: 'pokefight/pokefight_preview.jpg',
     link: 'https://pokefight.netlify.app',
     github: 'https://github.com/julienrousseau16/paris-0320-project2-PokeFight'
   },
@@ -257,7 +257,7 @@ export const projects = [
       "This sanitary context clearly guided our choice, as we built a Whack-a-Mole adaptation, in which the mole is replaced by a global virus threatening the human kind...",
       "The rules : you have to click on the virus prevent it from spreading - the propagation is symbolized by a thermometer. However, beware not to click on the ( + ) icon, whick increases the virus' defenses et accelerates its damages..."
     ],
-    mobilepic: 'whack/whack_mobilepreview.png',
+    mobilepic: 'whack/whack_mobilepreview.jpg',
     gallery: [
       {
         img: 'whack/wav1.jpg',
@@ -312,7 +312,7 @@ export const projects = [
         engTitle: 'Victory'
       }
     ],
-    pic: 'whack/whack_preview.png',
+    pic: 'whack/whack_preview.jpg',
     link: 'https://condescending-hypatia-22b592.netlify.app/',
     github: 'https://github.com/julienrousseau16/whack-a-virus'
   },
@@ -441,7 +441,6 @@ export const projects = [
     engDate: 'June to July \'20',
     team: 6,
     description: [
-
       "Ce 3e et dernier projet à la Wild Code School constituait l'aboutissement de cette formation professionnelle. D'une part, nous devions développer une application qui communiquerait avec un serveur back construit en NodeJs, et d'autre part chaque projet venait d'un client réel, pour lequel nous devions travailler suivant la méthode Scrum.",
       "Le souhait de notre client était de recréer un jeu sur ordinateur auquel il avait passé beaucoup de temps à jouer il y a une dizaine d'années, et qui avait depuis disparu.",
       "Le Concept ? Simple et efficace. Des sessions de jeu courtes au cours desquelles des images thématiques défilent et pour lesquelles le joueur doit saisir le nom correspond dans un temps imparti. Et justement, le temps a son importance : si chaque bonne réponse crédite le score total d'un nombre de points fixe, on ajoute à ce score autant de points que de secondes restantes avant la fin du temps imparti.",
@@ -457,7 +456,7 @@ export const projects = [
       "Beyond the gaming aspect, the other will of our client was to built a community - therefore, we developed an account creation feature, leading to a personal page, on which you can find the user's statistics, or modify your personal data etc.",
       "Finally, we also conceived a forum, proposing 2 'rooms' : a room dedicated to general topics, and a second one related to the app. Each registered user has access to the forum, can create topics and post messages. In the interest of control, our client has the possibility - via his back-office interface - to moderate messages and topics, to warn a user posting inappropriate content, even to ban this user if necessary.",
     ],
-    mobilepic: 'pictyquiz/pictyquiz_mobilepreview.png',
+    mobilepic: 'pictyquiz/pictyquiz_mobilepreview.jpg',
     gallery: [
       {
         img: 'vwr/vwr1.jpg',
@@ -552,7 +551,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    pic: 'pictyquiz/pictyquiz_preview.png',
+    pic: 'pictyquiz/pictyquiz_preview.jpg',
     github: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-front',
     github2: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-back'
   },
@@ -569,7 +568,7 @@ export const projects = [
     team: 1,
     description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
     engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
-    mobilepic: 'ddp/ddp_mobilepreview.png',
+    mobilepic: 'ddp/ddp_mobilepreview.jpg',
     gallery: [
       {
         img: 'vwr/vwr1.jpg',
@@ -664,7 +663,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    pic: 'ddp/ddp_preview.png',
+    pic: 'ddp/ddp_preview.jpg',
     link: 'https://lesdemoisellesdeplume.fr'
   },
 
@@ -680,7 +679,7 @@ export const projects = [
     team: 1,
     description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
     engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
-    mobilepic: 'sdd/sdd_mobilepreview.png',
+    mobilepic: 'sdd/sdd_mobilepreview.jpg',
     gallery: [
       {
         img: 'vwr/vwr1.jpg',
@@ -775,7 +774,7 @@ export const projects = [
         engTitle: 'The leave option'
       }
     ],
-    pic: 'sdd/sdd_preview.png',
+    pic: 'sdd/sdd_preview.jpg',
     link: 'https://lesdemoisellesdeplume.fr'
   },
 
