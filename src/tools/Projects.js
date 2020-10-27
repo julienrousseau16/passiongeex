@@ -327,8 +327,28 @@ export const projects = [
     date: 'Juin 2020',
     engDate: 'June \'20',
     team: 5,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      "Ce Hackathon, organisé conjointement par la Wild Code School, Doctolib et Dataiku, rassemblait près de 400 participants en équipes de 4/5 personnes parmi les différents campus européens de la Wild Code School. Le challenge suivant nous a été présenté : proposer une solution en lien avec la médecine à distance, en 48 heures.",
+      "L'idée de notre projet est venue de Marjolaine, une des membres de notre équipe, qui durant le confinement est restée plus d'une heure devant un écran gris à attendre le début d'une consultation en ligne avec son médecin traitant, via Doctolib. Celle-ci a fini par abandonner, et le médecin a dû la rappeler plus tard pour que Marjolaine se reconnecte et que la consultation ait bien lieu. Nous nous sommes donc lancé dans la conception d'une salle d'attente virtuelle en marque blanche, qui aurait 3 enjeux :",
+      "- Rassurer le patient quant à la bonne prise en compte de son rendez-vous à venir, en affichant le temps d'attente estimé ainsi que le nombre de patients nous précédant,",
+      "- Eviter au praticien de perdre du temps à recontacter des patients, pour qu'il ne se concentre que sur ses consultations,",
+      "- Transformer le temps d'attente en temps de qualité en vérifiant/collectant des informations sur le patient à l'aide d'un chatbot.",
+      "Le Hackathon s'est déroulé en 2 temps :",
+      "- Une phase de qualifications entre le 24 et le 26 juin qui avait lieu dans chaque campus pendant laquelle chaque équipe défendait son projet en 5 minutes dans sa langue d'origine",
+      "- Une finale européenne, avec 11 finalistes (8 projets de développement web, 3 en Data) où le projet devait être présenté en anglais.",
+      "Et c'est justement notre projet Virtual Waiting Room qui a remporté la première place en projet dev ! Dans le cadre de cette présentation, nous avions prévu une console de bord côté praticien afin d'illustrer le fonctionnement de la salle d'attente, je vous invite d'ailleurs à visionner notre passage via l'option VIDEO en bas de page, afin de voir notre Virtual Waiting Room en action !"
+    ],
+    engDescription: [
+      "This Hackathon has been organized by the Wild Code School, Doctolib and Dataiku, gathering almost 400 contestants divided in 4/5 persons teams from several Wild Code School european campuses. The challenge of this Hackathon : 48 hours to present a solution related to remote healthcare.",
+      "The idea of our project came from Marjolaine, one of our team mates. During the quarantine, Marjolaine sat more than an hour in front of an empty screen, waiting for her consultation to begin via the Doctolib plateform. She finally gave up, and the doctor had to call her back so that Marjolaine could sign in once again for this consultation. Consequently, we decided to conceive a white-label-designed Virtual Waiting Room, with 3 main objectifs :",
+      "- To reasure the patient about his appointment, displaying the estimated waiting time and the number of patients,",
+      "- To avoid the doctor from having to contact his patients, so that he only gets to focus on the consultations",
+      "- To turn the patient's waiting time into a benefit, checking or collecting data about the patient via a chatbot.",
+      "There were 2 phases during this Hackathon :",
+      "- First, a qualification session in every campuses between the 24th and the 26th of June - each team had to support its project in 5 minutes, using the local language",
+      "- Then a European Finale, during which the 11 finalist teams (8 webdev projects, 3 Data projects) had to present their solution in english.",
+      "Our Virtual Waiting Room actually won the First place of this Hackathon ! For the purpose of the presentation, we created a practitioner dashboard in order to demonstrate the waiting room mechanics. Speaking of demonstration, feel free to watch our finale presentation clicking on the VIDEO button at the bottom of the page to see our Virtual Waiting Room in motion !"
+    ],
     mobilepic: 'vwr/vwr_mobilepreview.png',
     gallery: [
       {
@@ -425,7 +445,6 @@ export const projects = [
       }
     ],
     pic: 'vwr/vwr_preview.png',
-    link: 'www.google.fr',
     github: 'https://github.com/julienrousseau16/hackarburer---Virtual-Waiting-Room',
     video: 'https://youtu.be/F2m-Io5FjIc?t=1622'
   },

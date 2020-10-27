@@ -74,7 +74,7 @@ const FullProject = () => {
 
       <section className='More'>
         <h2>
-          {lang === 'FR' ? 'Pour aller plus loin' : 'To go further'}
+          {lang === 'FR' ? 'Pour en savoir +' : 'Want to know more ?'}
         </h2>
         <ul>
           {"link" in useLocation().project && <li>
