@@ -585,8 +585,18 @@ export const projects = [
     date: 'Août à Sept. 2020',
     engDate: 'Aug. to Sept. \'20',
     team: 1,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      "J'ai effectué mon stage de fin de formation en développement web au sein de Plume, société et boutique de vente de robes de mariée. Julie Méli, qui en est la présidente, souhaitait ouvrir une seconde boutique, positionnée sur le prêt-à-porter féminin haut de gamme, et c'est Julie Berthet, sa collobaratrice, qui en pris les rênes.",
+      "Pour ce premier projet en stage, l'objectif était de créer un site vitrine pour la boutique 'Les Demoiselles de Plume' et le véritable challenge de ce projet à mon sens, a été la découverte et la mise en application de Wordpress, CMS qui avait déjà été utilisé pour monter le site de la première boutique. C'était donc l'occasion de se plonger dans l'univers de PHP afin de créer un thème sur mesure, et force est de constater que les rapprochements avec le JavaScript étaient nombreux (ce qui n'était pas pour me déplaire) !", 
+      "Outre l'utilisation de PHP, Wordpress dispose d'un nombre incroyable de plugins dont j'ai pu me servir pour le référencement du site, sa protection anti-spam, un formulaire de contact, un feed Instagram, ou encore un gestionnaire de cookies etc.",
+      "Ce site a pour vocation de donner un premier aperçu des modèles proposés en boutique et sur le e-Commerce qui ferait l'objet du projet n°2 de ce stage..."
+    ],
+    engDescription: [
+      "After finishing my web developer training, I started an internship at Plume, a company - and store - specialized in wedding dresses retail. Julie Méli, CEO of Plume, wanted to open a second store dedicated to premium, quality women clothes which would be lead by  her partner Julie Berthet.",
+      "The purpose of this first internship project was to create a showcase website about 'Les Demoiselles de Plume'. According to me, the main challenge of this project was the discovery - and especially the use ! - of Wordpress, the CMS that had already been used to built the first store's website. I was given the occasion to take a look at PHP, as I had to create a customised theme... One sure thing, the similarities with JavaScript helped go through learning the basics of PHP !", 
+      "Besides PHP, Wordpress offers lots of well thought plugins that I used for many purposes such as referencing, spam protection, contact form, Instagram feed, cookies management etc.",
+      "This website's role is to give an overview of the items available not only in store, but also on the e-Shop which would represent the 2nd project of this internship..."
+    ],
     mobilepic: 'ddp/ddp_mobilepreview.jpg',
     gallery: [
       {
@@ -690,14 +700,30 @@ export const projects = [
     id: 7,
     name: 'Le Shop des Demoiselles',
     slug: 'le-shop-des-demoiselles',
-    type: 'internship',
-    duration: '5 semaines',
-    engDuration: '5 weeks',
+    type: 'wip',
+    duration: 'en cours',
+    engDuration: 'wip...',
     date: 'Oct. à Nov. 2020',
     engDate: 'Oct. to Nov. \'20',
     team: 1,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      "Ce projet vient compléter la vitrine en ligne des Demoiselles de Plume. En effet, Julie et Julie souhaitaient mettre en place un e-Commerce pour cette seconde boutique - et pour le coup, la fermeture des commerces de proximité dans le cadre du 2e confinement a clairement accentué la nécessité de mettre en place cet outil !",
+      "Malgré la volonté de créer un site dédié uniquement à la boutique en ligne, la solution Wordpress a, là encore, été retenue pour monter le site. Pour des raisons de temps et de praticité, un thème pre-existant a été installé en premier, il était toutefois nécessaire que je déconstruise certains aspects de ce thème afin que l'on retrouve l'esprit du site vitrine.",
+      "Le plugin Woocommerce, largement plébiscité par les utilisateurs de Wordpress, offre un éventail très large de possibilités pour déployer un site e-commerce complet et efficace. Il m'aura d'ailleurs fallu un certain temps pour prendre connaissance des fonctionnalités disponibles - et j'imagine qu'il en reste encore beaucoup ! - pour pouvoir ensuite retranscrire leur fonctionnement aux futures administratrices du site.",
+      "A l'heure actuelle, j'ai intégré la quasi totalité des articles dans la base de données et les moyens de paiement sont mis en place. Avant la mise en ligne définitive, il reste les points suivants :",
+      "- Lier les stocks entre les ventes physiques avec la plateforme en ligne",
+      "- Peaufiner les derniers aspects graphiques",
+      "- Tester le cycle de commande: le paiement, la confirmation etc."
+    ],
+    engDescription: [
+      "This project completes the Demoiselles de Plume's showcase website. Indeed, Julie & Julie wanted to set up an e-Shop dedicated to this second store - it can be said that the convinience stores closing due to our 2nd quarantine episode clearly increased the need for this tool !",
+      "Despite the will to create a new website only dedicated to the online buying, Wordpress was once again chosen to build it. For time and practical reasons, a pre-existing theme has been installed first - however, I had to modify several parts of this theme in order to recreated the atmosphere of the showcase website.",
+      "Highly-downloaded by Wordpress users, the Woocommerce plugin offers a wide range of possibilities to set up a complete and efficient e-shop. As a matter of fact, it took me some time to discover its various features - et I'm sure there still is plenty to find out about  ! - so that I can be able to explain their functioning to the future administrators.",
+      "Right now, almost every single item has been integrated to the database, and the payment methods have been registered. Before the final launching, the last steps are :",
+      "- Integrate the stocks on the online plateform as they exist in the physical store",
+      "- Refine the last visual aspects",
+      "- Test the order cycle: payment, confirmation etc."
+    ],
     mobilepic: 'sdd/sdd_mobilepreview.jpg',
     gallery: [
       {
@@ -807,8 +833,26 @@ export const projects = [
     date: 'débuts en Oct. 2020',
     engDate: 'started in Oct. \'20',
     team: 1,
-    description: ["Marie-Henriette de Habsbourg-Lorraine, née le 23 août 1836 à Pest, alors ville de l'Empire d'Autriche (actuellement Budapest, en Hongrie), et morte le 19 septembre 1902 à Spa (Belgique) est devenue la deuxième reine consort des Belges en 1865, après l'avènement de son mari, sous le nom de Léopold II.", "En 1867, mandatée par Léopold II, Marie-Henriette se rend en Autriche, afin de négocier le retour en Belgique de sa belle-sœur Charlotte, ex-impératrice du Mexique, et veuve de Maximilien Ier, retenue sur ordre des Habsbourg. Parvenue à ses fins, elle veille scrupuleusement sur la santé fragile de sa belle-sœur, qui demeure quelque temps auprès du couple royal. La mort, en 1869, de leur fils unique Léopold, âgé de neuf ans, constitue un drame pour Marie-Henriette et son époux. Après un ultime rapprochement avec le roi, la reine donne naissance, en 1872, à une fille (Clémentine) non successible au trône. L'avenir de la dynastie belge repose désormais sur Philippe, comte de Flandre, frère de Léopold II, et sur ses deux fils Baudouin et Albert. Durant la guerre franco-prussienne de 1870, Marie-Henriette se dévoue aux soins des soldats blessés."],
-    engDescription: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Et molestie ac feugiat sed lectus vestibulum mattis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.', 'In pellentesque massa placerat duis ultricies lacus. Proin nibh nisl condimentum id venenatis a. Nunc scelerisque viverra mauris in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque diam volutpat commodo sed. Quam id leo in vitae turpis massa sed. Tristique risus nec feugiat in fermentum posuere urna nec. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Egestas quis ipsum suspendisse ultrices', 'At elementum eu facilisis sed odio morbi. Turpis egestas pretium aenean pharetra magna ac. Pharetra massa massa ultricies mi quis hendrerit dolor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.'],
+    description: [
+      "Le Trou du Lapin... Qu'est ce que le Trou du Lapin ? Le Trou du Lapin, c'est ni plus ni moins que l'adaptation d'un jeu de société que j'ai découvert cet été, et qui s'appelle... le Trou du Cochon. Alors on est d'accord, ce n'est pas le même animal, mais ce qu'il y a de génial, c'est que ça fonctionne - en tout cas, sur le papier pour l'instant - tout aussi bien ! Et pourquoi le Lapin plus que le Cochon, me demanderez-vous ? En commençant à monter le projet en 'Version Cochon', je me suis vite rendu compte que les animations, la patte graphique de manière générale que j'avais en tête serait beaucoup plus fun à mettre en place si je me servais d'un univers existant, et en l'occurence, celui des Lapins Crétins !",
+      "Les règles de ce jeu, dans les grandes lignes :",
+      "- chaque joueur débute la partie avec 6 oeufs, dont il devra se débarasser pour gagner la partie",
+      "- le plateau de jeu dispose de 6 emplacements, liés aux 6 faces d'un dé",
+      "- chaque joueur lance le dé, et pose son oeuf sur l'emplacement désigné : si l'emplacement est déjà occupé, le joueur récupère l'oeuf en place - s'il fait un 6, il se débarasse de l'oeuf en l'envoyant dans le fameux... Trou du Lapin !!",
+      "Je me replongerai dans le ce projet une fois mon stage terminé. Pour le moment, les rudiments de l'application web - qui sera disponible en français et en anglais - ont été intégrés, le système de jeu ressemble vaguement à quelque chose qui pourrait fonctionner... mais pas encore ! A noter que ce projet va se construire en 2 temps...",
+      "- Premier objectif : faire en sorte qu'une partie s'effectue en tour par tour local, impliquant que chaque joueur prenne le contrôle de l'appareil quand vient son tour",
+      "- Second objectif : déployer le jeu et assurer un mode online, via les websockets (dont il me reste à apprendre l'utilisation !)"
+  ],
+    engDescription: [
+      "The Rabbid's Hole... What is the Rabbid's Hole? The Rabbid's Hole is no more no less than the digital version of a boardgame I discovered this summer, called... the Hog's Hole. Well, we'll all agree this is not the same animal, but the very interest of this adaptation is that it works - at least, in my mind for now - just as well ! You may wonder 'Why a Rabbid instead of a Hog ?'... As I began to built this project 'Hog Style', I quickly realized that the animations and the visuel dimension in a general way I had in mind would be much more fun to set up if I used an already-existing universe, i.e. the Rabbids !",
+      "The short version of this game's rules are :",
+      "- each player begins with 6 eggs which he'll have to get rid of to win the game",
+      "- there are 6 holes on the board, related to the 6 sides of a dice",
+      "- each player rolls the dice and places an egg in the designated hole : if the hole is already filled, the player must remove it and add it to its personal eggs - if he rolls a 6, he can get rid of the egg throwing it in the famous... Rabbid's Hole !!",
+      "I'll dive into this project once my internship is over. For now, the basics of this web app - which will be available in French and English - have been integrated, the game system kind of looks like something that might work... but not yet ! Just so you know, this project will have 2 phases...",
+      "- First step : create a local game session, in which players have to exchange the running device everytime their turn comes",
+      "- Second step : create an online mode using the websockets (well, after learning how to use them !)"
+    ],
     mobilepic: 'tdl/tdl_mobilepreview.png',
     gallery: [
       {
