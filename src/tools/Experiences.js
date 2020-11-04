@@ -5,23 +5,26 @@ export const experiences = [
     date: 'Juillet 2007',
     engDate: 'July \'07',
     position: 'Job d\'été',
-    engPosition: '----------------------------',
+    engPosition: 'Summer Job',
     company: 'ABN AMRO Bank N.V.',
     legend: 'Au sein de la Comptabilité Fournisseurs, soutien administratif',
-    engLegend: '',
+    engLegend: 'After graduating high school, in an accounting department',
     missions: [
       {
         title: 'Missions',
         tasks: [
-          'Traitement de facures et de notes de frais',
+          'Traitement de factures et de notes de frais',
           'classements divers'
         ]
       }
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Missions',
+        engTasks: [
+          'Invoices and expense reports processing',
+          'Filing'
+        ]
       }
     ]
   },
@@ -32,7 +35,7 @@ export const experiences = [
     date: 'Février à Avril 2008',
     engDate: 'February to April \'08',
     position: 'Animateur',
-    engPosition: '----------------------------',
+    engPosition: 'School animator',
     company: 'Ecole primaire Joliot-Curie',
     legend: '',
     engLegend: '',
@@ -53,8 +56,17 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'During lunchtime',
+        engTasks: [
+          'Surveillance in the lunchroom and the playground'
+        ]
+      },
+      {
+        engTitle: 'After class',
+        engTasks: [
+          'Surveillance in the playground during snack time',
+          'Individual homework support'
+        ]
       }
     ]
   },
@@ -68,7 +80,7 @@ export const experiences = [
     engPosition: 'Mail Employee',
     company: 'Reunica',
     legend: 'Au sein d\'équipe de 15 personnes, missions de courrier pour un flux moyen de 5000 plis entrants :',
-    engLegend: '',
+    engLegend: 'Within a 15-persons team dealing with a daily average of 5000 envelops, I was in charge of diverse mail tasks :',
     missions: [
       {
         title: 'Missions',
@@ -82,8 +94,13 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Missions',
+        engTasks: [
+          'Reception and opening',
+          'Dispatch',
+          'Distribution tours',
+          'Stamping'
+        ]
       }
     ]
   },
@@ -104,7 +121,7 @@ export const experiences = [
         title: 'Gestion des sites intra/internet',
         tasks: [
           'Mise à jour du contenu',
-          'Rédaction de Newsletters'
+          'Tenue des Newsletters'
         ]
       },
       {
@@ -117,8 +134,18 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Intra/Internet websites management',
+        engTasks: [
+          'Content update',
+          'Newsletter writing'
+        ]
+      },
+      {
+        engTitle: 'Wording missions',
+        engTasks: [
+          'Creation and update of Marketing documents jointly with the Compliance department',
+          'English to French and French to English translation of these documents'
+        ]
       }
     ]
   },
@@ -132,7 +159,7 @@ export const experiences = [
     engPosition: 'Advertising Intern',
     company: 'Agence Grand Baie',
     legend: 'Préparation d\'un appel d\'offres dans le cadre d\'une refonte d\'identité visuelle pour l\'école d\'études supérieures ISIFA',
-    engLegend: '',
+    engLegend: 'Preparation of a tender launched by ISIFA Graduate School, whose visual identity had to be redesigned',
     missions: [
       {
         title: 'Benchmark des identités visuelles sur ce marché',
@@ -157,8 +184,24 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Benchmark study of visual identities :',
+        engTasks: [
+          'Study of websites and marketing documents',
+          'Front shooting and building visits'
+        ]
+      },
+      {
+        engTitle: 'Student exhibition :',
+        engTasks: [
+          'A 2-days visitors survey to collect their expectations about high education'
+        ]
+      },
+      {
+        engTitle: 'Creation of a visual dedicated to a recruitment campaign :',
+        engTasks: [
+          'New logo proposals',
+          'Model for a shooting session'
+        ]
       }
     ]
   },
