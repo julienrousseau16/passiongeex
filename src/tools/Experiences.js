@@ -261,12 +261,12 @@ export const experiences = [
       {
         engTitle: 'Room service :',
         engTasks: [
-          'Meeting rooms management (reservation, installation, trays ordering)'
+          'Meeting rooms management (reservation, installation, trays ordering)',
         ]
       },
       {
-        title: 'Handling :',
-        tasks: [
+        engTitle: 'Handling :',
+        engTasks: [
           'Furniture assembly',
           'Frames exposure',
           'Internal moves',
@@ -274,8 +274,8 @@ export const experiences = [
         ]
       },
       {
-        title: 'Stocks management :',
-        tasks: [
+        engTitle: 'Stocks management :',
+        engTasks: [
           'Office supplies inventory',
           'Furniture inventory, dispatch and installation',
           'Archives management'
@@ -358,7 +358,7 @@ export const experiences = [
       {
         title: 'Missions de services généraux :',
         tasks: [
-          'Réception, expédition et distribution de courrier & colis en France et à l’International',
+          'Réception et expédition de courrier & colis en France et à l’International',
           'Inventaire matériel, attribution et mise en place de mobilier, reportings',
           'Suivi et changement du matériel de diffusion dans les salles de réunion',
           'Gestion de la régie d\'un auditorium lors de grands événements'
@@ -367,8 +367,39 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Security :',
+        engTasks: [
+          'Badges, alarms and remote surveillance management',
+          '"Evacuation mate" during fire drills',
+          'Referent in case of incidents such as power failures',
+          'Permanent contact with the Building Manager about the employee\'s security at the office'
+        ]
+      },
+      {
+        engTitle: 'Maintenance :',
+        engTasks: [
+          'Work quotes management',
+          'Work supervision on electricity, conditioned air, plumbing, woodwork',
+          'Supervision and interaction with the cleaning / reception desk / maintenance teams'
+        ]
+      },
+      {
+        engTitle: 'Moves & Handling :',
+        engTasks: [
+          'Supervision of several important moves',
+          'Internal moves organization',
+          'Various repairs (doorknobs, closers, furniture etc.)',
+          'Large deliveries reception and storage'
+        ]
+      },
+      {
+        engTitle: 'Facilities tasks :',
+        engTasks: [
+          'National and international mail and packages reception and sending',
+          'Office supplies inventory and ordering, furniture dispatch and installation, reportings',
+          'Devices control and replacement in the meeting rooms',
+          'Auditorium sound booth management during corporate events'
+        ]
       }
     ]
   },
@@ -414,17 +445,34 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: 'Web & Communication',
+        engTitle: 'Web and Communication :',
         engTasks: [
-          'Web site',
-          'Intranet site',
-          'Event'
+          'Regular content update on the Intra/Internet websites',
+          'E-mailings compaigns',
+          'Supervision of an event website, realized by a Web agency',
+          'Organization of a contest dedicated to Visual Communication professionals',
+          'Stand setting-up and hosting for e-VISIONS during a 3-days exhibition'
+        ]
+      },
+      {
+        engTitle: 'Accounting :',
+        engTasks: [
+          'Redesign and upkeep of accounting documents',
+          'Fluxes management',
+          'Reportings creation'
+        ]
+      },
+      {
+        engTitle: 'Administrative tasks :',
+        engTasks: [
+          'Main contact person for the 500 e-VISIONS subscribers (phone, mail, e-mail)',
+          'Job processes creation',
+          'Réservation / Ordering : meeting rooms, travels, office supplies, carriers',
+          'Mail management : reception, processing, dispatch and stamping'
         ]
       }
     ]
   },
-
-  
 
 
   {
