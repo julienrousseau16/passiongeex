@@ -243,16 +243,43 @@ export const experiences = [
       {
         title: 'Gestion de stocks :',
         tasks: [
-          'Inventaire matériel',
-          'Inventaire matériel, attribution et mise en place de mobilier, reportings',
+          'Inventaire des fournitures de bureau',
+          'Inventaire, attribution et mise en place de mobilier',
           'Gestion des archives'
         ]
       }
     ],
     engMissions: [
       {
-        engTitle: '',
-        engTasks: []
+        engTitle: 'Mail :',
+        engTasks: [
+          'Mail reception, dispatch, distribution and stamping',
+          'National and international packages reception, distribution and shipping',
+          'Courier ordering'
+        ]
+      },
+      {
+        engTitle: 'Room service :',
+        engTasks: [
+          'Meeting rooms management (reservation, installation, trays ordering)'
+        ]
+      },
+      {
+        title: 'Handling :',
+        tasks: [
+          'Furniture assembly',
+          'Frames exposure',
+          'Internal moves',
+          'Various repairs'
+        ]
+      },
+      {
+        title: 'Stocks management :',
+        tasks: [
+          'Office supplies inventory',
+          'Furniture inventory, dispatch and installation',
+          'Archives management'
+        ]
       }
     ]
   },
@@ -266,7 +293,7 @@ export const experiences = [
     engPosition: 'Multi-Clients Polyvalent Employee',
     company: 'Facilitess --> +20 clients',
     legend: 'Ensemble des responsabilités mentionnées dans l\'expérience d\'Agent Polyvalent, mais avec statut d\'agent Multi-sites, afin d\'assurer des remplacements lors de congés ou de besoin de renfort, en toute réactivité et dans plus de 20 sociétés différentes dont :',
-    engLegend: 'Blaaaaaaaaa bla bla bla bla',
+    engLegend: 'The same kind of missions as during my former experience - Polyvalent Employee - but this time with a multi-client status, in order to replace agents during vacations or as a support to a team if necessary. During this experience, I had the opportunity to be assigned in about 20 different companies, such as :',
     missions: [
       {
         title: 'Clients :',
@@ -280,8 +307,13 @@ export const experiences = [
     ],
     engMissions: [
       {
-        engTitle: 'Missions :',
-        engTasks: []
+        engTitle: 'Clients  :',
+        engTasks: [
+          'Industry : SAGEM Défense Sécurité, Subsea 7',
+          'Luxury : Cartier, Estée Lauder',
+          'Mass consumption : Nike - PepsiCo',
+          'Consulting : Accenture - Bearing Point'
+        ]
       }
     ]
   },
