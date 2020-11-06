@@ -26,7 +26,7 @@ const UserPage = () => {
           <h3>Recruteur</h3>
         </div>
       </div>
-      <p>ça va pas changer grand chose</p>
+      <p>(On this app, feel free to switch to English whenever you want by clicking on the top-right corner of the page)</p>
     </div>
   )
 }

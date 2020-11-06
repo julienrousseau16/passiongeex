@@ -26,16 +26,7 @@ const ProfilePage = () => {
       </div>
 
       <ExperiencesContainer lang={lang} />
-
       <EducationContainer lang={lang} />
-
-      {/* <div className='ResumeContainer'>
-        {
-          lang === 'FR' ?
-            <a href={require('../../docs/CV.pdf')} download>Télécharger mon CV</a>
-            : <a href={require('../../docs/resume.pdf')} download>Download my Resume</a>
-        }
-      </div> */}
 
       <div className='ProfileRedirection'>
         <p>

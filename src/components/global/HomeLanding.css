@@ -1,0 +1,46 @@
+.HomeLanding {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HomeLanding h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.HomeLanding img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.HomeLanding p {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-style: italic;
+  color: grey;
+}
+
+.HomeLanding-Options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Option {
+  margin: 5px 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.Option:first-of-type {
+  background-color: grey;
+}
+.Option:nth-of-type(2) {
+  background-color: #fff;
+  color: #000;
+}
+.Option:last-of-type {
+  background-color: #f8002d;
+}
