@@ -484,10 +484,48 @@ export const experiences = [
     company: 'Les Demoiselles de Plume',
     legend: '',
     missions: [
-
+      {
+        title: 'Site Vitrine',
+        tasks: [
+          'Première expérience Web en autonomie',
+          'Création d\'un thème Wordpress sur mesure',
+          'Découverte de FileZilla pour l\'upload des fichiers en vue de l\'hébergement',
+          'Utilisation de plugins pour : le référencement, le contact via formulaire, la gestion des cookies...'
+        ]
+      },
+      {
+        title: 'E-Commerce',
+        tasks: [
+          'Toujours en autonomie sur le projet',
+          'Exploitation approfondie du plugin WooCommerce',
+          'Customisation d\'un thème existant',
+          'Intégration massive de contenu',
+          'Test complet du cycle de commande',
+          'Rédaction d\'une procédure d\'utilisation du back-office'
+        ]
+      }
     ],
     engMissions: [
-
+      {
+        engTitle: 'Showcase website',
+        engTasks: [
+          'First professional web project realized independently',
+          'Creation of a customised Wordpress theme',
+          'Data hosting : discovery of FileZilla',
+          'Wordpress plugins use : referencement, contact form, cookies management...'
+        ]
+      },
+      {
+        engTitle: 'e-Shop website',
+        engTasks: [
+          'Still independent on this new project',
+          'Discovery and use of the WooCommerce plugin',
+          'Customisation of an already-existing theme',
+          'High integration of content',
+          'Complete tests of the purchasing cycle',
+          'Creation of a Back-office use process'
+        ]
+      }
     ]
   },
 
