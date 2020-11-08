@@ -3,15 +3,14 @@
   transition: 0.3s ease-in-out;
 }
 
-.ProfileHeader h1 {
-  text-align: center;
-  color: #fff;
+.ProfileHeader {
+  margin-bottom: 30px;
 }
-.ProfileHeader img {
-  width: 100%;
-  margin: 20px 0;
-  filter: grayscale(.5);
-  z-index: 0;
+.ProfileHeader p {
+  text-align: justify;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 10px;
 }
 
 .ProfileRedirection {

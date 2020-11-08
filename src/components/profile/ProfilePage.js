@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 
+import { aboutMe } from '../../tools/Introduction'
 import { LangContext } from '../../tools/LangContext'
 
 import EducationContainer from './EducationContainer'
@@ -19,10 +20,11 @@ const ProfilePage = () => {
   return (
     <div className='ProfilePage' style={appear ? { opacity: 1 } : { opacity: 0 }}>
       <div className='ProfileHeader'>
-        <h1>
-          {lang === 'FR' ? 'À propos de moi' : 'About me'}
-        </h1>
-        <img src={require('../../pictures/profile.png')} alt='profile-pic' />
+        {
+          lang === 'FR' ?
+          aboutMe.fr.map((text, index) => <p key={index}>{text}</p>)
+          : aboutMe.eng.map((text, index) => <p key={index}>{text}</p>)
+        }
       </div>
 
       <ExperiencesContainer lang={lang} />

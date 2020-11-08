@@ -6,7 +6,7 @@ import HomeLanding from './HomeLanding'
 import FullProject from '../projects/FullProject'
 import ProfilePage from '../profile/ProfilePage'
 import ProjectsContainer from '../projects/ProjectsContainer'
-import ReferencesContainer from '../references/ReferencesContainer'
+// import ReferencesContainer from '../references/ReferencesContainer'
 
 import './MainContainer.css'
 
@@ -35,9 +35,11 @@ const MainContainer = () => {
           <Route path='/home/project/:slug'>
             <FullProject />
           </Route>
+          {/* To be uncommented when references will be displayed on LinkedIn
+          
           <Route path='/home/references'>
             <ReferencesContainer />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </div>

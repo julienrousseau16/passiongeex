@@ -11,7 +11,7 @@
 }
 
 .HomeLanding img {
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
 }
 
@@ -41,6 +41,8 @@
   background-color: #fff;
   color: #000;
 }
-.Option:last-of-type {
+.Option:only-of-type {
   background-color: #f8002d;
+  font-style: normal;
+  color: #fff;
 }

@@ -28,9 +28,11 @@ const Header = () => {
           <Link to='/home/projects' className='NavItem'>
             {lang === 'FR' ? 'Projets Web' : 'Web Projects'}
           </Link>
+          {/* To be uncommented when several references are displayed on LinkedIn 
+          
           <Link to='/home/references' className='NavItem'>
             {lang === 'FR' ? 'Références' : 'References'}
-          </Link>
+          </Link> */}
         </ul>
       </nav>
       <div className='HeaderLang'>
