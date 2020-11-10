@@ -12,6 +12,11 @@ const ProfilePage = () => {
 
   const { lang } = useContext(LangContext)
   const [appear, setAppear] = useState(false)
+  const [complete, setComplete] = useState(false)
+
+  const textToggle = () => {
+    setComplete(!complete)
+  }
 
   useEffect(() => {
     setAppear(true)
@@ -19,13 +24,23 @@ const ProfilePage = () => {
 
   return (
     <div className='ProfilePage' style={appear ? { opacity: 1 } : { opacity: 0 }}>
-      <div className='ProfileHeader'>
+      <header>
+      <div className='ProfileDescription' style={!complete ? { height: '200px' } : { height: 'fit-content' }}>
         {
           lang === 'FR' ?
-          aboutMe.fr.map((text, index) => <p key={index}>{text}</p>)
-          : aboutMe.eng.map((text, index) => <p key={index}>{text}</p>)
+            aboutMe.fr.map((text, index) => <p key={index}>{text}</p>)
+            : aboutMe.eng.map((text, index) => <p key={index}>{text}</p>)
         }
       </div>
+      <button
+        style={!complete ? { marginTop: '10px' } : { marginTop: 0 }}
+        onClick={textToggle}
+      >{lang === 'FR' && !complete ? 'Lire plus'
+        : lang === 'FR' && complete ? 'Lire moins'
+          : lang !== 'FR' && !complete ? 'Read more'
+            : 'Read less'}
+      </button>
+      </header>
 
       <ExperiencesContainer lang={lang} />
       <EducationContainer lang={lang} />

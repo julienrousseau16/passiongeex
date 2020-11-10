@@ -9,7 +9,7 @@ const Landing = () => {
 
   const [toUser, setToUser] = useState(false)
   useEffect(() => {
-    setTimeout(() => setToUser(true), 6000);
+    setTimeout(() => setToUser(true), 3000);
   }, [])
 
   return (
