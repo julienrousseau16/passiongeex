@@ -39,6 +39,7 @@
 
 .NavItem {
   color: #fff;
+  font-size: 1.2em;
 }
 
 .HeaderLang {
@@ -51,7 +52,8 @@
 }
 
 .HeaderLang p {
-  color: #fff;
+  font-size: 1.2em;
+  color: grey;
   cursor: pointer;
 }
 

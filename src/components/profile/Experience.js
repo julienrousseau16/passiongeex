@@ -10,17 +10,17 @@ import './Experience.css'
 const Experience = ({ lang, expe: { id, date, engDate, position, engPosition, company, legend, engLegend, missions, engMissions } }) => {
   return (
     <div className='Experience'>
-      <div className='ExperienceInfo'>
-        <FontAwesomeIcon icon={faBuilding} className='icon' />
-        <p>{company}</p>
-      </div>
-      <div className='ExperienceInfo'>
+      <div className='ExperienceInfo' id='time'>
         <FontAwesomeIcon icon={faHourglassHalf} className='icon' />
         <p>
           {lang === 'FR' ? date : engDate}
         </p>
       </div>
       <div className='ExperienceInfo'>
+        <FontAwesomeIcon icon={faBuilding} className='icon' />
+        <p>{company}</p>
+      </div>
+      <div className='ExperienceInfo' id='position'>
         <FontAwesomeIcon icon={faUser} className='icon' />
         <h3>
           {lang === 'FR' ? position : engPosition}
@@ -38,7 +38,7 @@ const Experience = ({ lang, expe: { id, date, engDate, position, engPosition, co
           missions.map((mission, index) => <Mission key={index} mission={mission} />)
           : engMissions.map((engMission, index) => <EngMission key={index} engMission={engMission} />)}
       </div>
-      {id > 1 && <p className='ItemSeparator'>****************</p>}
+      {id > 1 && < hr className='ItemSeparator'/>}
     </div>
   )
 }

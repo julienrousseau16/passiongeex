@@ -1,8 +1,14 @@
+.Mission h4 {
+  margin-bottom: 10px;
+}
+
 .Mission ul {
   padding-left: 20px;
+  margin-bottom: 10px;
 }
 .Mission li {
-  text-align: justify;
+  margin-bottom: 5px;
+  text-align: left;
   list-style: square;
   color: grey;
 }

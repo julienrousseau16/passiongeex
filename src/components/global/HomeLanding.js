@@ -13,11 +13,13 @@ const HomeLanding = () => {
   return (
     <div className='HomeLanding'>
       <img src={require('../../pictures/landingimg.png')} alt='' />
-      {
-        lang === 'FR' ?
-          landingText.fr.map((text, index) => <p key={index}>{text}</p>)
-          : landingText.eng.map((text, index) => <p key={index}>{text}</p>)
-      }
+      <div className='HomeLandingIntro'>
+        {
+          lang === 'FR' ?
+            landingText.fr.map((text, index) => <p key={index}>{text}</p>)
+            : landingText.eng.map((text, index) => <p key={index}>{text}</p>)
+        }
+      </div>
       <div className='HomeLanding-Options'>
         <Link to='/home/profile' className='Option'>
           {lang === 'FR' ? 'Mon Parcours' : 'My Profile'}</Link>

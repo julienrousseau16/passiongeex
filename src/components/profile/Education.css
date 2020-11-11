@@ -1,11 +1,17 @@
 .Education {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .EducationInfo {
   display: flex;
   align-items: center;
   color: #fff;
+}
+.Education #diploma * {
+  color:  #0073b1;
+}
+.Education #duration * {
+  color: grey;
 }
 
 .EducationInfo .icon {

@@ -19,7 +19,7 @@ const ProjectsContainer = () => {
   return (
     <div className='ProjectsContainer' style={appear ? { opacity: 1 } : { opacity: 0 }}>
       <h2>
-        {lang === 'FR' ? '[En cours]' : '[Work in progress]'}
+        {lang === 'FR' ? '[ En cours ... ]' : '[ Work in progress ... ]'}
       </h2>
       <div className='ProjectsCategory'>
         {projects

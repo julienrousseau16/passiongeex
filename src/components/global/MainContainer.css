@@ -1,8 +1,10 @@
 .MainContainer {
   width: 100%;
   transition: 1s ease-in-out;
+  min-height: 100vh;
 }
 
 .MainContainer .Content {
+  min-height: 100vh;
   padding: 70px 5% 10px 5%;
 }

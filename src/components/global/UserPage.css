@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   transition: 1s ease-in-out;
   padding: 0 20px;
 }
@@ -13,7 +13,6 @@
   width: 40%;
   position: absolute;
   top: 20px;
-  
 }
 
 .UserPage h1 {
@@ -54,6 +53,13 @@
   text-transform: uppercase;
 }
 
-.UserPage p {
-color: #fff;
+.LanguageTip {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: grey;
+}
+.LanguageTip .icon {
+  font-size: 30px;
+  margin-right: 10px;
 }

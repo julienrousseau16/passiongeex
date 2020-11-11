@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 import { Link } from 'react-router-dom'
 
@@ -26,7 +28,10 @@ const UserPage = () => {
           <h3>Recruteur</h3>
         </div>
       </div>
-      <p>(On this app, feel free to switch to English whenever you want by clicking on the top-right corner of the page)</p>
+      <div className='LanguageTip'>
+        <FontAwesomeIcon icon={faInfoCircle} className='icon' />
+        <p>On this app, feel free to switch to English whenever you want by clicking on the top-right corner of the page :D</p>
+      </div>
     </div>
   )
 }

@@ -41,6 +41,12 @@
   padding-bottom: 20px;
   border-bottom: 1px solid grey;
 }
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .Description .text {
   position: relative;
@@ -89,7 +95,7 @@
   width: 30px !important;
   min-width: 30px !important;
   height: 30px !important;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   background-color: grey !important;
@@ -121,4 +127,10 @@
   margin-left: 5px;
   color: grey;
   cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .rec-arrow-left, .rec-arrow-right {
+    display: flex;
+  }
 }

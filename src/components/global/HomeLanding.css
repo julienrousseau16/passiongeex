@@ -1,5 +1,5 @@
 .HomeLanding {
-  padding: 20px 0;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +13,10 @@
 .HomeLanding img {
   width: 90%;
   margin-bottom: 20px;
+}
+
+.HomeLandingIntro {
+  margin: 15px 0;
 }
 
 .HomeLanding p {
