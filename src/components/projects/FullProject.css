@@ -114,6 +114,9 @@
 
 .More {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .More ul li {
