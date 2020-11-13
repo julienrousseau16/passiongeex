@@ -17,3 +17,9 @@
 .EducationInfo .icon {
   margin-right: 10px;
 }
+
+@media screen and (min-width: 450px) {
+  .EducationInfo {
+    font-size: 1.5em;
+  }
+}

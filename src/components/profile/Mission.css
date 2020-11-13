@@ -12,3 +12,9 @@
   list-style: square;
   color: grey;
 }
+
+@media screen and (min-width: 450px) {
+  .Mission h4, .Mission ul {
+    font-size: 1.5em;
+  }
+}

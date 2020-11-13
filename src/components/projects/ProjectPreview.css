@@ -18,5 +18,10 @@
   border-radius: 5px;
 }
 
+@media screen and (min-width: 450px) {
+  .ProjectPreview img {
+    border-radius: 10px;
+  }
+}
 
 

@@ -52,5 +52,23 @@ header button {
   cursor: pointer;
 }
 .ProfileRedirection img {
-  width: 50%;
+  width: 150px;
+}
+
+@media screen and (min-width: 450px) {
+  .ProfileDescription p {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  header button {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  .ProfileRedirection img {
+    width: 200px;
+  }
+  .ProfileRedirection p {
+    font-size: 1.5em;
+  }
 }
