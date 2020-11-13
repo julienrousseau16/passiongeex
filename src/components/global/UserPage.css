@@ -33,7 +33,12 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-  height: 150px;
+}
+.User a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .User img {
@@ -43,9 +48,7 @@
 }
 
 .User img:hover {
-  margin-bottom: 0;
   filter: grayscale(0);
-  border: 5px solid #fff;
 }
 
 .User h3 {
@@ -62,4 +65,39 @@
 .LanguageTip .icon {
   font-size: 30px;
   margin-right: 10px;
+}
+
+@media screen and (min-width: 450px) {
+
+  .UserPage h1 {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+  }
+
+  .UsersContainer {
+    margin-bottom: 150px;
+  }
+  .User {
+    width: 50%;
+  }
+  .User a {
+    width: 70%;
+  }
+  .User img {
+    width: 100%;
+  }
+  .User h3 {
+    font-size: 2em;
+  }
+
+  .LanguageTip {
+    width: 80%;
+  }
+  .LanguageTip .icon {
+    font-size: 3em;
+    margin-right: 20px;
+  }
+  .LanguageTip p {
+    font-size: 1.7em;
+  }
 }

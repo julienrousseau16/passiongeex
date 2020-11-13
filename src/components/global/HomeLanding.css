@@ -5,11 +5,6 @@
   align-items: center;
 }
 
-.HomeLanding h1 {
-  text-align: center;
-  color: #fff;
-}
-
 .HomeLanding img {
   width: 90%;
   margin-bottom: 20px;
@@ -49,4 +44,19 @@
   background-color: #f8002d;
   font-style: normal;
   color: #fff;
+}
+
+@media screen and (min-width: 450px) {
+  .HomeLanding img {
+    width: 70%;
+    margin-top: 50px;
+  }
+  .HomeLandingIntro p {
+    font-size: 1.5em;
+  }
+  .Option {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.7em;
+  }
 }

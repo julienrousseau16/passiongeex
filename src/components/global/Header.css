@@ -57,6 +57,15 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 450px) {
+  .NavItem, .HeaderLang p {
+    font-size: 1.7em;
+  }
+  .HeaderLang {
+    border-left: 1.5px solid grey;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .HeaderLogoContainer {
     width: 35%;
