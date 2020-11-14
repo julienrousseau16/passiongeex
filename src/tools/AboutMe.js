@@ -33,3 +33,84 @@ export const aboutMe = {
     "Therefore, with a Canada Working Holiday Visa obtained, I intend to start my brand-new carreer as a Front-End React Web developer - so, while you're wandering on this portfolio, you're thinking 'Hey, wouldn't he and I make great things together ?!', then feel free to contact me at julienrousseau16@gmail.com !"
   ]
 }
+
+export const stack = [
+  {
+    id: 1,
+    name: 'HTML 5',
+    slug: 'html.png',
+    type: 'front'
+  },
+  {
+    id: 2,
+    name: 'CSS',
+    slug: 'css.png',
+    type: 'front'
+  },
+  {
+    id: 3,
+    name: 'JavaScript',
+    slug: 'javascript.png',
+    type: 'front'
+  },
+  {
+    id: 4,
+    name: 'ReactJS',
+    slug: 'react.png',
+    type: 'front'
+  },
+  {
+    id: 5,
+    name: 'NodeJS',
+    slug: 'node.png',
+    type: 'back'
+  },
+  {
+    id: 6,
+    name: 'SQL',
+    slug: 'sql.png',
+    type: 'back'
+  },
+  {
+    id: 7,
+    name: 'Python',
+    slug: 'python.png',
+    type: 'back'
+  },
+  {
+    id: 8,
+    name: 'Git',
+    slug: 'git.png',
+    type: 'tool'
+  },
+  {
+    id: 9,
+    name: 'Scrum',
+    slug: 'scrum.png',
+    type: 'tool'
+  },
+  {
+    id: 10,
+    name: 'WorkBench',
+    slug: 'workbench.png',
+    type: 'tool'
+  },
+  {
+    id: 11,
+    name: 'MySQL',
+    slug: 'mysql.png',
+    type: 'tool'
+  },
+  {
+    id: 12,
+    name: 'Photoshop',
+    slug: 'photoshop.png',
+    type: 'tool'
+  },
+  {
+    id: 13,
+    name: 'Illustrator',
+    slug: 'illustrator.png',
+    type: 'tool'
+  }
+]

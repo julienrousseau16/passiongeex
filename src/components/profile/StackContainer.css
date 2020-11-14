@@ -1,0 +1,39 @@
+.StackContainer {
+  padding: 20px 0 0 0;
+  border-top: 1px solid grey;
+}
+
+.StackSubContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StackContainer h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.StackContainer h2 {
+  text-align: center;
+  color: #0073b1;
+}
+
+.StackWrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 769px) {
+  .StackContainer h1 {
+    font-size: 2.5em;
+  }
+  .StackContainer h2 {
+    margin-bottom: 20px;
+  }
+}

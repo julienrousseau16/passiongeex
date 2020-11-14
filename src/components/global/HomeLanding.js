@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { NavLink as Link } from 'react-router-dom'
 
 import { LangContext } from '../../tools/LangContext'
-import { landingText } from '../../tools/Introduction'
+import { landingText } from '../../tools/AboutMe'
 
 import './HomeLanding.css'
 

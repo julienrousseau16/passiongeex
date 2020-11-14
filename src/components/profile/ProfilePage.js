@@ -1,10 +1,11 @@
 import React, { useEffect, useState, useContext } from 'react'
 
-import { aboutMe } from '../../tools/Introduction'
+import { aboutMe } from '../../tools/AboutMe'
 import { LangContext } from '../../tools/LangContext'
 
 import EducationContainer from './EducationContainer'
 import ExperiencesContainer from './ExperiencesContainer'
+import StackContainer from './StackContainer'
 
 import './ProfilePage.css'
 
@@ -42,6 +43,7 @@ const ProfilePage = () => {
       </button>
       </header>
 
+      <StackContainer lang={lang} />
       <ExperiencesContainer lang={lang} />
       <EducationContainer lang={lang} />
 
