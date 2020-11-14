@@ -25,43 +25,46 @@ const FullProject = () => {
   return (
     <div className='FullProject'>
       <div className='FullProjectTopContainer'>
-        <img src={require(`../../pictures/${pic}`)} alt='project' />
-        <div className='InformationContainer'>
-          <h2 style={{ color: 'white' }}>{name}</h2>
-          <div className='Information'>
-            <div className='Date'>
-              <FontAwesomeIcon icon={faCalendarAlt} className='icon' />
-              <p>{lang === 'FR' ? date : engDate}</p>
-            </div>
-            <div className='Duration'>
-              <FontAwesomeIcon icon={faHourglassHalf} className='icon' />
-              <p>{lang === 'FR' ? duration : engDuration}</p>
-            </div>
-            <div className='NbPeople'>
-              <FontAwesomeIcon icon={faUsers} className='icon' />
-              <p>{team}</p>
+        <div className='Block1'>
+          <img src={require(`../../pictures/${pic}`)} alt='project' />
+        </div>
+        <div className='Block2'>
+          <div className='InformationContainer'>
+            <h2 style={{ color: 'white' }}>{name}</h2>
+            <div className='Information'>
+              <div className='Date'>
+                <FontAwesomeIcon icon={faCalendarAlt} className='icon' />
+                <p>{lang === 'FR' ? date : engDate}</p>
+              </div>
+              <div className='Duration'>
+                <FontAwesomeIcon icon={faHourglassHalf} className='icon' />
+                <p>{lang === 'FR' ? duration : engDuration}</p>
+              </div>
+              <div className='NbPeople'>
+                <FontAwesomeIcon icon={faUsers} className='icon' />
+                <p>{team}</p>
+              </div>
             </div>
           </div>
+
+          <section className='Description'>
+            <div className='text' style={!complete && window.screen.width < 769 ? { height: '130px' } : { height: 'auto' }}>
+              {lang === 'FR' ?
+                description.map((text, index) => <p key={index}>{text}</p>)
+                : engDescription.map((text, index) => <p key={index}>{text}</p>)
+              }
+            </div>
+            { window.screen.width < 769 && <button
+              style={!complete ? { marginTop: '10px' } : { marginTop: 0 }}
+              onClick={textToggle}
+            >{lang === 'FR' && !complete ? 'Lire plus'
+              : lang === 'FR' && complete ? 'Lire moins'
+                : lang !== 'FR' && !complete ? 'Read more'
+                  : 'Read less'}
+            </button>}
+          </section>
         </div>
       </div>
-
-      <section className='Description'>
-        <div className='text' style={!complete ? { height: '130px' } : { height: 'fit-content' }}>
-          {lang === 'FR' ?
-            description.map((text, index) => <p key={index}>{text}</p>)
-            : engDescription.map((text, index) => <p key={index}>{text}</p>)
-          }
-        </div>
-        <button
-          style={!complete ? { marginTop: '10px' } : { marginTop: 0 }}
-          onClick={textToggle}
-        >{lang === 'FR' && !complete ? 'Lire plus'
-          : lang === 'FR' && complete ? 'Lire moins'
-            : lang !== 'FR' && !complete ? 'Read more'
-              : 'Read less'}
-        </button>
-      </section>
-
 
 
       <section className='Gallery'>

@@ -25,7 +25,7 @@ const ProfilePage = () => {
   return (
     <div className='ProfilePage' style={appear ? { opacity: 1 } : { opacity: 0 }}>
       <header>
-      <div className='ProfileDescription' style={!complete ? { height: '200px' } : { height: 'fit-content' }}>
+      <div className='ProfileDescription' style={!complete ? { height: '200px' } : { height: 'auto' }}>
         {
           lang === 'FR' ?
             aboutMe.fr.map((text, index) => <p key={index}>{text}</p>)
