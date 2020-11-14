@@ -5,7 +5,14 @@
 .EducationContainer h1 {
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 .EducWrapper {
   margin-top: 20px;
+}
+
+@media screen and (min-width: 450px) {
+  .EducationContainer h1 {
+    font-size: 2.5em;
+  }
 }

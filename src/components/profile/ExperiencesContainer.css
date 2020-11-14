@@ -5,9 +5,16 @@
 
 .ExperiencesContainer h1 {
   text-align: center;
-  color: #fff
+  color: #fff;
+  cursor: pointer
 }
 
 .ExpWrapper {
   margin-top: 20px;
+}
+
+@media screen and (min-width: 450px) {
+  .ExperiencesContainer h1 {
+    font-size: 2.5em;
+  }
 }

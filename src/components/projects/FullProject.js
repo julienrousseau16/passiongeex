@@ -24,25 +24,26 @@ const FullProject = () => {
 
   return (
     <div className='FullProject'>
-
-      <section className='ProjectHeader'>
+      <div className='FullProjectTopContainer'>
         <img src={require(`../../pictures/${pic}`)} alt='project' />
-        <h2 style={{ color: 'white' }}>{name}</h2>
-        <div className='Information'>
-          <div className='Date'>
-            <FontAwesomeIcon icon={faCalendarAlt} className='icon' />
-            <p>{lang === 'FR' ? date : engDate}</p>
-          </div>
-          <div className='Duration'>
-            <FontAwesomeIcon icon={faHourglassHalf} className='icon' />
-            <p>{lang === 'FR' ? duration : engDuration}</p>
-          </div>
-          <div className='NbPeople'>
-            <FontAwesomeIcon icon={faUsers} className='icon' />
-            <p>{team}</p>
+        <div className='InformationContainer'>
+          <h2 style={{ color: 'white' }}>{name}</h2>
+          <div className='Information'>
+            <div className='Date'>
+              <FontAwesomeIcon icon={faCalendarAlt} className='icon' />
+              <p>{lang === 'FR' ? date : engDate}</p>
+            </div>
+            <div className='Duration'>
+              <FontAwesomeIcon icon={faHourglassHalf} className='icon' />
+              <p>{lang === 'FR' ? duration : engDuration}</p>
+            </div>
+            <div className='NbPeople'>
+              <FontAwesomeIcon icon={faUsers} className='icon' />
+              <p>{team}</p>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <section className='Description'>
         <div className='text' style={!complete ? { height: '130px' } : { height: 'fit-content' }}>
@@ -60,6 +61,8 @@ const FullProject = () => {
               : 'Read less'}
         </button>
       </section>
+
+
 
       <section className='Gallery'>
         <h2>
