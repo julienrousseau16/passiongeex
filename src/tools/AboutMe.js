@@ -2,7 +2,7 @@ export const landingText = {
   fr: [
     'Bienvenue sur PassionGeex, mon portfolio flambant neuf !',
     'À la manière de Netflix dont cette appli est (à peine) inspirée, cette plateforme sera régulièrement alimentée en contenu tout au long de ma nouvelle - et j\'espère prometteuse ! - carrière de développeur.',
-    'En attendant, vous pouvez d\'ores et déjà faire un premier tour et jeter un oeil aux projets réalisés, que ce soit en école, stage ou plus personnel :'
+    'En attendant, vous pouvez d\'ores et déjà faire un premier tour et jeter un oeil aux projets réalisés, que ce soit en école, stage ou bien des idées plus personnelles :'
   ],
   eng: [
     'Welcome to PassionGeex, my brand-new portfolio !',
@@ -103,12 +103,18 @@ export const stack = [
   },
   {
     id: 12,
+    name: 'WordPress',
+    slug: 'wordpress.png',
+    type: 'tool'
+  },
+  {
+    id: 13,
     name: 'Photoshop',
     slug: 'photoshop.png',
     type: 'tool'
   },
   {
-    id: 13,
+    id: 14,
     name: 'Illustrator',
     slug: 'illustrator.png',
     type: 'tool'

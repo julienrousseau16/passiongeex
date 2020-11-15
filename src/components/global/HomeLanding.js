@@ -30,8 +30,8 @@ const HomeLanding = () => {
         </Link>
         {
           lang === 'FR' ?
-            <p className='Option'>Télécharger mon CV (à venir)</p>
-            : <p className='Option'>Download my Resume (coming soon)</p>
+          <a className='Option' id='resume' href={require('../../docs/CV_Julien_Rousseau_Webdev_React.pdf')} download>Télécharger mon CV</a>
+            : <p className='Option'>Download my Resume (ENG version coming soon)</p>
         }
       </div>
     </div>

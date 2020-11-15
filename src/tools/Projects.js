@@ -587,7 +587,8 @@ export const projects = [
     ],
     pic: 'pictyquiz/pictyquiz_preview.jpg',
     github: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-front',
-    github2: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-back'
+    github2: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-back',
+    link: 'https://pictyquiz.netlify.app/'
   },
 
   {

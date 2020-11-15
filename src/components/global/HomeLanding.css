@@ -46,7 +46,7 @@
   background-color: #fff;
   color: #000;
 }
-.Option:only-of-type {
+.Option:only-of-type, #resume {
   background-color: #f8002d;
   font-style: normal;
   color: #fff;
