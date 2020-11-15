@@ -16,7 +16,7 @@ const UserPage = () => {
 
   return (
     <div className='UserPage' style={appear ? { opacity: 1 } : { opacity: 0 }}>
-      <img className='topLogo' src={require('../../pictures/logo.png')} alt='logo' />
+      <img className='topLogo' src={require('../../pictures/logo.svg')} alt='logo' />
       <h1>Qui-est ce ?</h1>
       <div className='UsersContainer'>
         <div className='User'>

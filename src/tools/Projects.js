@@ -478,97 +478,112 @@ export const projects = [
     mobilepic: 'pictyquiz/pictyquiz_mobilepreview.jpg',
     gallery: [
       {
-        img: 'vwr/vwr1.jpg',
-        title: 'Victoire du Hackathon !',
-        engTitle: 'Hackathon victory !'
+        img: 'pictyquiz/picty1.jpg',
+        title: 'Page d\'accueil',
+        engTitle: 'Landing page'
       },
       {
-        img: 'vwr/vwr2.jpg',
-        title: 'Enjeux de l\'application',
-        engTitle: 'App goals'
+        img: 'pictyquiz/picty2.jpg',
+        title: 'Thématiques',
+        engTitle: 'Themes'
       },
       {
-        img: 'vwr/vwr3.jpg',
-        title: 'Schéma de l\'application',
-        engTitle: 'App diagram'
+        img: 'pictyquiz/picty3.jpg',
+        title: 'Session de jeu',
+        engTitle: 'Game session'
       },
       {
-        img: 'vwr/vwr4.jpg',
-        title: 'Les membres de l\'équipe',
-        engTitle: 'Team members'
+        img: 'pictyquiz/picty4.jpg',
+        title: 'Classements',
+        engTitle: 'Rankings'
       },
       {
-        img: 'vwr/vwr5.jpg',
-        title: 'Page de transition',
-        engTitle: 'Transition page'
+        img: 'pictyquiz/picty5.jpg',
+        title: 'Page profil',
+        engTitle: 'Profile page'
       },
       {
-        img: 'vwr/vwr6.jpg',
-        title: 'Message d\'accueil',
-        engTitle: 'Welcoming bot'
+        img: 'pictyquiz/picty6.jpg',
+        title: 'Page Forum',
+        engTitle: 'Forum page'
       },
       {
-        img: 'vwr/vwr7.jpg',
-        title: 'La salle d\'attente',
-        engTitle: 'The waiting room'
+        img: 'pictyquiz/picty7.jpg',
+        title: 'FAQ',
+        engTitle: 'FAQ'
       },
       {
-        img: 'vwr/vwr8.jpg',
-        title: 'La console du praticien',
-        engTitle: 'The practitioner\'s dashboard'
+        img: 'pictyquiz/picty8.jpg',
+        title: 'Espace administrateur',
+        engTitle: 'Admin dashboard'
       },
       {
-        img: 'vwr/vwr9.jpg',
-        title: 'La déconnexion',
-        engTitle: 'The leave option'
+        img: 'pictyquiz/picty9.jpg',
+        title: 'Gestion des utilisateurs',
+        engTitle: 'Users management'
+      },
+      {
+        img: 'pictyquiz/picty10.jpg',
+        title: 'Paramètres de jeu',
+        engTitle: 'Game session settings'
+      },
+      {
+        img: 'pictyquiz/picty11.jpg',
+        title: 'Gestion du contenu',
+        engTitle: 'Content management'
       }
     ],
     maxGallery: [
       {
-        img: 'vwr/virtual1.jpg',
-        title: 'Victoire du Hackathon !',
-        engTitle: 'Hackathon victory !'
+        img: 'pictyquiz/pictyquiz1.jpg',
+        title: 'Page d\'accueil',
+        engTitle: 'Landing page'
       },
       {
-        img: 'vwr/virtual2.jpg',
-        title: 'Enjeux de l\'application',
-        engTitle: 'App goals'
+        img: 'pictyquiz/pictyquiz2.jpg',
+        title: 'Thématiques',
+        engTitle: 'Themes'
       },
       {
-        img: 'vwr/virtual3.jpg',
-        title: 'Schéma de l\'application',
-        engTitle: 'App diagram'
+        img: 'pictyquiz/pictyquiz3.jpg',
+        title: 'Session de jeu',
+        engTitle: 'Game session'
       },
       {
-        img: 'vwr/virtual4.jpg',
-        title: 'Les membres de l\'équipe',
-        engTitle: 'Team members'
+        img: 'pictyquiz/pictyquiz4.jpg',
+        title: 'Classements',
+        engTitle: 'Rankings'
       },
       {
-        img: 'vwr/virtual5.jpg',
-        title: 'Page de transition',
-        engTitle: 'Transition page'
+        img: 'pictyquiz/pictyquiz5.jpg',
+        title: 'Page profil',
+        engTitle: 'Profile page'
       },
       {
-        img: 'vwr/virtual6.jpg',
-        title: 'Message d\'accueil',
-        engTitle: 'Welcoming bot'
+        img: 'pictyquiz/pictyquiz6.jpg',
+        title: 'Page Forum',
+        engTitle: 'Forum page'
       },
       {
-        img: 'vwr/virtual7.jpg',
-        title: 'La salle d\'attente',
-        engTitle: 'The waiting room'
+        img: 'pictyquiz/pictyquiz7.jpg',
+        title: 'FAQ',
+        engTitle: 'FAQ'
       },
       {
-        img: 'vwr/virtual8.jpg',
-        title: 'La console du praticien',
-        engTitle: 'The practitioner\'s dashboard'
+        img: 'pictyquiz/pictyquiz8.jpg',
+        title: 'Espace administrateur',
+        engTitle: 'Admin dashboard'
       },
       {
-        img: 'vwr/virtual9.jpg',
-        title: 'La déconnexion',
-        engTitle: 'The leave option'
-      }
+        img: 'pictyquiz/pictyquiz9.jpg',
+        title: 'Gestion des utilisateurs',
+        engTitle: 'Users management'
+      },
+      {
+        img: 'pictyquiz/pictyquiz10.jpg',
+        title: 'Paramètres de jeu',
+        engTitle: 'Game session settings'
+      },
     ],
     pic: 'pictyquiz/pictyquiz_preview.jpg',
     github: 'https://github.com/julienrousseau16/paris-react-2003-pjt3-pictoquiz-front',
@@ -692,96 +707,66 @@ export const projects = [
     mobilepic: 'sdd/sdd_mobilepreview.jpg',
     gallery: [
       {
-        img: 'vwr/vwr1.jpg',
-        title: 'Victoire du Hackathon !',
-        engTitle: 'Hackathon victory !'
+        img: 'sdd/sdd1.jpg',
+        title: 'Page d\'accueil',
+        engTitle: 'Landing page'
       },
       {
-        img: 'vwr/vwr2.jpg',
-        title: 'Enjeux de l\'application',
-        engTitle: 'App goals'
+        img: 'sdd/sdd2.jpg',
+        title: 'Galerie',
+        engTitle: 'Gallery'
       },
       {
-        img: 'vwr/vwr3.jpg',
-        title: 'Schéma de l\'application',
-        engTitle: 'App diagram'
+        img: 'sdd/sdd3.jpg',
+        title: 'Fiche produit',
+        engTitle: 'Product card'
       },
       {
-        img: 'vwr/vwr4.jpg',
-        title: 'Les membres de l\'équipe',
-        engTitle: 'Team members'
+        img: 'sdd/sdd4.jpg',
+        title: 'Formulaire de contact',
+        engTitle: 'Contact form'
       },
       {
-        img: 'vwr/vwr5.jpg',
-        title: 'Page de transition',
-        engTitle: 'Transition page'
+        img: 'sdd/sdd5.jpg',
+        title: 'Espace personnel',
+        engTitle: 'Account page'
       },
       {
-        img: 'vwr/vwr6.jpg',
-        title: 'Message d\'accueil',
-        engTitle: 'Welcoming bot'
-      },
-      {
-        img: 'vwr/vwr7.jpg',
-        title: 'La salle d\'attente',
-        engTitle: 'The waiting room'
-      },
-      {
-        img: 'vwr/vwr8.jpg',
-        title: 'La console du praticien',
-        engTitle: 'The practitioner\'s dashboard'
-      },
-      {
-        img: 'vwr/vwr9.jpg',
-        title: 'La déconnexion',
-        engTitle: 'The leave option'
+        img: 'sdd/sdd6.jpg',
+        title: 'Panier',
+        engTitle: 'Cart'
       }
     ],
     maxGallery: [
       {
-        img: 'vwr/virtual1.jpg',
-        title: 'Victoire du Hackathon !',
-        engTitle: 'Hackathon victory !'
+        img: 'sdd/shop1.jpg',
+        title: 'Page d\'accueil 1/2',
+        engTitle: 'Landing page 1/2'
       },
       {
-        img: 'vwr/virtual2.jpg',
-        title: 'Enjeux de l\'application',
-        engTitle: 'App goals'
+        img: 'sdd/shop2.jpg',
+        title: 'Page d\'accueil 2/2',
+        engTitle: 'Landing page 2/2'
       },
       {
-        img: 'vwr/virtual3.jpg',
-        title: 'Schéma de l\'application',
-        engTitle: 'App diagram'
+        img: 'sdd/shop3.jpg',
+        title: 'Fiche produit',
+        engTitle: 'Product card'
       },
       {
-        img: 'vwr/virtual4.jpg',
-        title: 'Les membres de l\'équipe',
-        engTitle: 'Team members'
+        img: 'sdd/shop4.jpg',
+        title: 'Formulaire de contact',
+        engTitle: 'Contact form'
       },
       {
-        img: 'vwr/virtual5.jpg',
-        title: 'Page de transition',
-        engTitle: 'Transition page'
+        img: 'sdd/shop5.jpg',
+        title: 'Espace personnel',
+        engTitle: 'Account page'
       },
       {
-        img: 'vwr/virtual6.jpg',
-        title: 'Message d\'accueil',
-        engTitle: 'Welcoming bot'
-      },
-      {
-        img: 'vwr/virtual7.jpg',
-        title: 'La salle d\'attente',
-        engTitle: 'The waiting room'
-      },
-      {
-        img: 'vwr/virtual8.jpg',
-        title: 'La console du praticien',
-        engTitle: 'The practitioner\'s dashboard'
-      },
-      {
-        img: 'vwr/virtual9.jpg',
-        title: 'La déconnexion',
-        engTitle: 'The leave option'
+        img: 'sdd/shop6.jpg',
+        title: 'Panier',
+        engTitle: 'Cart'
       }
     ],
     pic: 'sdd/sdd_preview.jpg',
@@ -944,7 +929,7 @@ export const projects = [
         engTitle: 'Projects page'
       },
       {
-        img: 'pg/pg5.jpg',
+        img: 'pg/passiongeex5.jpg',
         title: 'Fiche projet',
         engTitle: 'Project card'
       }
