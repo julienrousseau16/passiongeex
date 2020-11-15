@@ -17,7 +17,7 @@ const Header = () => {
       <Link to='/home' className='HeaderLogoContainer'>
         {window.screen.width < 768 ?
           <img src={require('../../pictures/logo-short.png')} alt='logo' />
-          : <img src={require('../../pictures/logo.png')} alt='logo' />
+          : <img src={require('../../pictures/logo.svg')} alt='logo' />
         }
       </Link>
       <nav className='Navbar'>

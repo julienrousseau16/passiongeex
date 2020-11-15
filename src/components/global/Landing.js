@@ -14,7 +14,7 @@ const Landing = () => {
 
   return (
     <div className='Landing'>
-      <img className='App_logo' src={require('../../pictures/logo.png')} alt='main-logo' />
+      <img className='App_logo' src={require('../../pictures/logo.svg')} alt='main-logo' />
       { toUser ? <Redirect to='/user' /> : null }
       <audio src={jingle} autoPlay></audio>
     </div>
