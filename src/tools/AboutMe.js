@@ -20,7 +20,7 @@ export const aboutMe = {
     "Et pour le coup, la formation que j'ai suivie à la Wild Code School m'a apporté beaucoup. En effet, au-delà des compétences en JavaScript (React pour le front et Node pour le back), cette formation a renforcé mon sens de la débrouillardise car l'autonomie vis à vis de l'apprentissage était une composante omniprésente au cours de ces 5 mois, mais aussi le sens du travail en équipe à travers de nombreux projets, dojos et hackathons.",
     "De plus, le constat en termes de temps passé à coder était sans appel : journées, soirées, week-ends et jours fériés... Tous passés à coder ! Si ça, c'est pas aimer ce qu'on fait...",
     "La formation s'est achevée en août dernier, je suis actuellement dans la dernière ligne droite de mon stage où j'ai pu étoffer mes compétences avec Wordpress. Et maintenant, l'heure est venue de lancer un autre projet qui me tient à coeur depuis déjà plusieurs années : m'installer au Québec !",
-    "Je cherche donc, dans le cadre de mon PVT Canada obtenu en début d'année, à enfin commencer cette nouvelle carrière en tant que Développeur Front-End React - alors, si en parcourant ce portfolio, vous pensez que l'on pourrait faire de belles choses ensemble, n'hésitez pas à me contacter -> julienrousseau16@gmail.com !"
+    "Je cherche donc, dans le cadre de mon PVT Canada obtenu en début d'année, à enfin commencer cette nouvelle carrière en tant que Développeur Web - alors, si en parcourant ce portfolio, vous pensez que l'on pourrait faire de belles choses ensemble, n'hésitez pas à me contacter -> julienrousseau16@gmail.com !"
   ],
   eng: [
     "After 8 years and several experiences in Facilities, I wanted new professional challenges." ,
@@ -30,7 +30,7 @@ export const aboutMe = {
     "And what we can say is that the training I had at Wild Code School gave me a lot. Indeed, beyond JavaScript skills (Front-end: React / Back-end: Node), this training reinforced my resourcefulness - as Indedependence in Learning was a major motto during those 5 months - and with many projects, dojos and hackathons, it seriously get us prepared to efficient teamwork.",
     "Moreover, time spent coding was pretty indicative : days, evenings, week-ends and holidays, when nobody or nothing forces you to... If that's not loving what you do...!",
     "The training ended last August, I'm currently finishing my internship where I got new skills with Wordpress. And now is the time to focus on another project that has been in my mind for years : to settle in Quebec !",
-    "Therefore, with a Canada Working Holiday Visa obtained, I intend to start my brand-new carreer as a Front-End React Web developer - so, while you're wandering on this portfolio, you're thinking 'Hey, wouldn't he and I make great things together ?!', then feel free to contact me at julienrousseau16@gmail.com !"
+    "Therefore, with a Canada Working Holiday Visa obtained, I intend to start my brand-new carreer as a Web developer - so, while you're wandering on this portfolio, you're thinking 'Hey, wouldn't he and I make great things together ?!', then feel free to contact me at julienrousseau16@gmail.com !"
   ]
 }
 
