@@ -680,7 +680,7 @@ export const projects = [
     id: 7,
     name: 'Le Shop des Demoiselles',
     slug: 'le-shop-des-demoiselles',
-    type: 'wip',
+    type: 'internship',
     duration: 'en cours',
     engDuration: 'wip...',
     date: 'Oct. à Nov. 2020',
